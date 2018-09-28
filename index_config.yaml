@@ -1,0 +1,30 @@
+# 技术教程首页配置信息
+# 下面内容中所有以 "#"" 开始的行都是注释行
+# YAML 语法参考：http://yaml.org/spec/1.2/spec.html
+---
+# 导航栏配置
+# 导航栏配置包含主题及主题下的所有标签
+# 技术教程元信息中配置的标签都应是在导航栏配置中列出的标签
+nav:
+  # 技术方向允许包含多个标签
+  - topic: 算法
+    tags:
+      - name: 算法
+        # 标签的 icon 图片链接地址，必须是有效的图片链接
+        icon: https://static.shiyanlou.com/wiki/icon/tag_1.png
+      - name: 数据结构
+        icon: https://static.shiyanlou.com/wiki/icon/tag_2.png
+  - topic: 后端开发
+    tags:
+      - name: Python
+        # 如果标签没有 icon，则可以指定一张默认的 icon
+        icon: https://static.shiyanlou.com/wiki/icon/tag_default.png
+# 内容块配置
+# 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
+blocks:
+  # 技术方向名称
+  - topic: 算法
+    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
+    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
+    books:
+      - 数据结构与算法/leetcode/lintcode题解

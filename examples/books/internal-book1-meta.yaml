@@ -1,0 +1,32 @@
+# 技术教程配置示例
+# 下面内容中所有以 "#"" 开始的行都是注释行
+# YAML 语法参考：http://yaml.org/spec/1.2/spec.html
+---
+# 技术教程名称应总是唯一的
+name: 技术教程名称
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: tech-book
+topic: 技术主题
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 第一个标签
+  - 第二个标签
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: shiyanlou/library
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: internal/book1
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: shiyanlou
+  email: example@shiyanlou.com
+  # github 主页地址
+  github: github.com/shiyanlou
+  blog: blog.shiyanlou.com
+# 描述信息
+description: |
+  这是一段较长的教程描述信息，在 YAML 中可以通过 "|" 或者 ">" 来书写多行文本。具体参考
+  YAML 语法文档中的 "Block Styles" 章节。
+version: 1.0
