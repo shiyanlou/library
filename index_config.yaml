@@ -11,14 +11,26 @@ nav:
     tags:
       - name: 算法
         # 标签的 icon 图片链接地址，必须是有效的图片链接
-        icon: https://static.shiyanlou.com/wiki/icon/tag_1.png
+        icon: https://dn-simplecloud.shiyanlou.com/weapp/icon%20%E7%AE%97%E6%B3%95.png
       - name: 数据结构
-        icon: https://static.shiyanlou.com/wiki/icon/tag_2.png
+        icon: https://dn-simplecloud.shiyanlou.com/weapp/icon%20%E6%B1%87%E7%BC%96.png
   - topic: 后端开发
     tags:
       - name: Python
         # 如果标签没有 icon，则可以指定一张默认的 icon
-        icon: https://static.shiyanlou.com/wiki/icon/tag_default.png
+        icon: https://dn-simplecloud.shiyanlou.com/weapp/icon%20Python.png
+      - name: PHP
+        # 如果标签没有 icon，则可以指定一张默认的 icon
+        icon: https://dn-simplecloud.shiyanlou.com/weapp/icon%20PHP.png
+# 内容块配置
+# 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
+blocks:
+  # 技术方向名称
+  - topic: 算法
+    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
+    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
+    books:
+      - 数据结构与算法/leetcode/lintcode题解
 # 内容块配置
 # 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
 blocks:
