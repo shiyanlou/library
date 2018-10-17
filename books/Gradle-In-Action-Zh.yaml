@@ -4,7 +4,7 @@
 name:Gradle实战中文版    
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: Gradle-In-Action-Zh
-topic: Gradle
+topic: 后端开发
 # 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
 tags:
   - Gradle
