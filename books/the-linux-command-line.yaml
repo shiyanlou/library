@@ -4,7 +4,7 @@
 name:快乐的 Linux 命令行  
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: TLCL
-topic: Linux
+topic: Linux运维
 # 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
 tags:
   - Linux
