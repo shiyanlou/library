@@ -1,0 +1,29 @@
+# zacao/php-developer-prepares配置
+---
+# 技术教程名称应总是唯一的
+name: php开发者实践
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: php-developer-prepares
+topic: PHP
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - PHP
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: php-developer-prepares
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: zacao
+  # github 主页地址
+  github: github.com/zacao
+# 描述信息
+description: |
+ 坚持了 5 年的创业项目决定结束了（行业垂直搜索方向，理想很美好、现实很骨感），作为没混好的草根站长 & 没被风吹起来的小互联网公司技术合伙人，个人基本见证了这几年 PHP 环境的发展（当然主要归功于互联网创业风潮大爆发），感受了一些 PHP 团队和从业者的现状；同时，我们自身在 PHP 研发团队组建过程中也遇到了不少问题，一直想把创业过程中遇到的这些团队实践相关问题整理、总结一下，目前只是个初始版本，欢迎大家拍砖 & 加入！
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
