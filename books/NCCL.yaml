@@ -1,0 +1,35 @@
+# limingth/NCCL配置
+---
+# 技术教程名称应总是唯一的
+name:新概念C语言
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: NCCL
+topic: C
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - C
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: limingth/NCCL
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: limingth
+  email: limingth@gmail.com 
+  # github 主页地址
+  github: github.com/limingth
+# 描述信息
+description: |
+  这是一门适合C语言零基础，但对C编程有强烈兴趣，想探求其奥秘和精髓的学员阅读学习的课程。
+
+  起名为《新概念C语言》是希望借鉴《新概念英语》教材的写法，不着重强调语法和词汇(知识点)，而是以范文和场景(应用)来构建课程(Lesson)。|
+  全书分为 4个 Unit，每个 Unit 包含 24 个 Lesson，一共 96 个 Lesson。|
+  其中每个 Lesson 对应一段可编译执行的典型代码，解决一个有趣的计算机问题，例如约瑟夫环。|
+  这些代码范例的编写，作者将力求做到句法经典，内涵丰富，适合初学者模仿和扩展。|
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
