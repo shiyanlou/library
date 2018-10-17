@@ -4,7 +4,7 @@
 name:CSS3教程
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: css3-tutorial
-topic: CSS
+topic: Web前端
 # 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
 tags:
   - CSS
