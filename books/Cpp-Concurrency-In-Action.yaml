@@ -1,0 +1,36 @@
+# xiaoweiChen/Cpp_Concurrency_In_Action配置
+---
+# 技术教程名称应总是唯一的
+name:C++并发编程  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: Cpp-Concurrency-In-Action
+topic: C++
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 语言
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: xiaoweiChen/Cpp_Concurrency_In_Action
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: xiaoweiChen
+  email: loongchen25@126.com 
+  # github 主页地址
+  github: github.com/xiaoweiChen
+# 描述信息
+description: |
+  本书是并发和多线程机制指导书籍(基于C++11标准)。从最基本的std::thread std::mutex和std::async的使用，到复杂的原子操作和内存模型。
+  前4章，介绍了标准库提供的各种库工具，展示了使用方法。
+  第5章，涵盖了底层内存模型和原子操作的实际情况，包括原子操作如何对执行顺序进行限制(这章标志着介绍部分的结束)。
+  第6、7章，开始讨论高级主题，如何使用基本工具去构建复杂的数据结构——第6章是基于锁的数据结构，第7章是无锁数据结构。
+  第8章，对设计多线程代码给了一些指导意见，覆盖了性能问题和并行算法。
+  第9章，线程管理——线程池，工作队列和中断操作。
+  第10章，测试和调试——Bug类型，定位Bug的技巧，以及如何进行测试等等。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
