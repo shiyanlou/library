@@ -1,0 +1,37 @@
+# cocoajin/http-api-design-ZH_CN配置
+---
+# 技术教程名称应总是唯一的
+name:Http API设计指南  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: http-api-design-ZH_CN
+topic: Http
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Http
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: cocoajin/http-api-design-ZH_CN
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: cocoajin
+  email: dev.keke@gmail.com
+  # github 主页地址
+  github: github.com/cocoajin
+  blog: http://www.cnblogs.com/cocoajin
+# 描述信息
+description: |
+ 这篇指南介绍了大量的 http + json 的api设计风格，最初摘录自heroku平台的api设计指引 Heroku 平台 API 指引.|
+
+这篇指南除了当前那些API，同时也适用于heroku平台新集成的api,我们希望那些在heroku之外的api设计者也感兴趣！|
+
+我们的目标是一致性，专注业务逻辑同时避免设计上的空想，我们一直在寻找一种良好的，统一的，显而易见的API设计方式，未必只有一种方式。|
+
+我们假设你熟悉基本的 http+json api 设计方式，但是，不一定包含在此篇指南里面的所有内容。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
