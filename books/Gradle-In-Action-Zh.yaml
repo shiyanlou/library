@@ -1,7 +1,7 @@
 # EZLippi/GradleInActionZh配置
 ---
 # 技术教程名称应总是唯一的
-name:Gradle实战中文版    
+name: Gradle实战中文版    
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: Gradle-In-Action-Zh
 topic: 后端开发
