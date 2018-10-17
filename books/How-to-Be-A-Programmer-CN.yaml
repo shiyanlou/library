@@ -1,0 +1,39 @@
+# ahangchen/How-to-Be-A-Programmer-CN配置
+---
+# 技术教程名称应总是唯一的
+name:如何做好一个程序员  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: How-to-Be-A-Programmer-CN
+topic: 杂谈
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 杂谈
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: ahangchen/How-to-Be-A-Programmer-CN
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: 梦里茶
+  email: cweihang@foxmail.com 
+  # github 主页地址
+  github: github.com/ahangchen
+  blog: cweihang.io
+# 描述信息
+description: |
+  做一个好的程序员,困难而高尚。将一个软件工程集体愿景变为现实，最困难的地方在于与你的同事和顾客相处。编程很重要，这需要强大的智力和技能。 但在好的程序员看来，相比构建一个让客户和各种各样的同事都满意的软件系统，（纯粹的）编程真的只是小孩子的玩意。在这篇文章里，我尝试尽可能简洁地总结那些当我21岁时，希望别人告诉我的事。|
+
+　　这可能很主观的，所以，这篇文章注定不适用于所有人，并且有的内容有点武断。我尽量写一些程序员在ta的工作中，非常可能会遇到的事情。大部分这些问题以及它们的解决方案在人们的环境中如此普遍，以至于我(说的)可能有点唠叨。尽管如此，我还是希望这篇文章是有用的。|
+
+　　我们在课堂上学习编程。 那些著作: The Pragmatic Programmer [Prag99], Code Complete [CodeC93], Rapid Development [RDev96], 以及 Extreme Programming Explained [XP99] 都传授编程（知识），并阐述做一个好的程序员这个大话题。 在读这篇文章之前，或者就是现在，你当然也应该读一读Paul Graham [PGSite] 和 Eric Raymond [Hacker] 的文章。 但与那些著作不同，这篇文章强调社交问题并且总结了整套我所知的必须的技能。|
+
+　　在这篇文章里，boss这个词指的是任何一个交给你工程去做的人。 除了一些语境外，我会同义地使用交易，公司，集体这些词，比如，交易意味着赚钱，公司意味着现代的工作空间，集体一般是那些你一起工作的人。|
+
+　　欢迎来到这个群体。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
