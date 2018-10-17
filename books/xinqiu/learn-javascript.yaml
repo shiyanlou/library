@@ -1,0 +1,30 @@
+# xinqiu/Learn-Javascript配置
+---
+# 技术教程名称应总是唯一的
+name:javascript导学 
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: Learn-Javascript
+topic: javascript
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - javascript
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: xinqiu/Learn-Javascript
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: xinqiu
+  email: xinqiu.94@gmail.com 
+  # github 主页地址
+  github: github.com/xinqiu
+# 描述信息
+description: |
+  这本书将教你Javascript编程的相关基础。不管你是菜鸟还是一个有经验的程序猿，这本书是为任何想学习Javascript编程的人而准备的。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
