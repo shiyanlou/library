@@ -1,0 +1,30 @@
+# Unknwon/the-way-to-go_ZH_CN配置
+---
+# 技术教程名称应总是唯一的
+name:Go入门指南
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: the-way-to-go_ZH_CN
+topic: Go
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 语言
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: Unknwon/the-way-to-go_ZH_CN
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: Unknwon
+  email: u@gogs.io
+  # github 主页地址
+  github: github.com/Unknwon
+# 描述信息
+description: |
+  对于学习 Go 编程语言的爱好者来说，这本书无疑是最适合你的一本书籍，这里包含了当前最全面的学习资源。本书通过对官方的在线文档、名人博客、书籍、相关文章以及演讲的资料收集和整理，并结合我自身在软件工程、编程语言和数据库开发的授课经验，将这些零碎的知识点组织成系统化的概念和技术分类来进行讲解。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
