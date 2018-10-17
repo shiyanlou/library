@@ -7,36 +7,80 @@
 # 技术教程元信息中配置的标签都应是在导航栏配置中列出的标签
 nav:
   # 技术方向允许包含多个标签
-  - topic: 算法
-    tags:
-      - name: 算法
-        # 标签的 icon 图片链接地址，必须是有效的图片链接
-        icon: https://dn-simplecloud.shiyanlou.com/weapp/icon%20%E7%AE%97%E6%B3%95.png
-      - name: 数据结构
-        icon: https://dn-simplecloud.shiyanlou.com/weapp/icon%20%E6%B1%87%E7%BC%96.png
   - topic: 后端开发
     tags:
-      - name: Python
+      - name: C++
+        # 标签的 icon 图片链接地址，必须是有效的图片链接
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/C++.png
+      - name: C
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/C.png
+        - name: Go
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Go.png
+        - name: PHP
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/PHP.png
+        - name: Java
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Java.png
+        - name: Python
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Python.png
+
+  - topic: Web前端
+    tags:
+      - name: Javascript
         # 如果标签没有 icon，则可以指定一张默认的 icon
-        icon: https://dn-simplecloud.shiyanlou.com/weapp/icon%20Python.png
-      - name: PHP
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/JavaScript.png
+      - name: CSS
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
+  - topic: Linux运维
+    tags:
+      - name: Linux
         # 如果标签没有 icon，则可以指定一张默认的 icon
-        icon: https://dn-simplecloud.shiyanlou.com/weapp/icon%20PHP.png
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Linux.png
+      - name: 网络
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Network.png
+  - topic: 大数据与云计算
+    tags:
+      - name: 机器学习
+        # 如果标签没有 icon，则可以指定一张默认的 icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
+  - topic: 杂谈
+ 
+        
 # 内容块配置
 # 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
 blocks:
   # 技术方向名称
-  - topic: 算法
+  - topic: 后端开发
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
     # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
-      - 数据结构与算法/leetcode/lintcode题解
+      - C++并发编程/Gradle实战中文版/新概念C语言/Go命令教程/OpenResty最佳实践/php扩展开发及内核应用/php开发者实践/Go入门指南/twisted与异步编程入门
 # 内容块配置
 # 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
 blocks:
   # 技术方向名称
-  - topic: 算法
+  - topic: 云计算与大数据
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
     # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
-      - 数据结构与算法/leetcode/lintcode题解
+      - 18个经典数据挖掘算法实现
+blocks:
+  # 技术方向名称
+  - topic: 杂谈
+    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
+    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
+    books:
+      - 如何做好一个程序员 
+blocks:
+  # 技术方向名称
+  - topic: Web前端
+    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
+    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
+    books:
+      - CSS3教程/前端开发者手册/javascript导学/webpack中文指南
+blocks:
+  # 技术方向名称
+  - topic: Linux运维
+    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
+    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
+    books:
+      - Http API设计指南/Http接口设计指北/快乐的 Linux 命令行/理解Linux进程/像IDE一样实验Vim
