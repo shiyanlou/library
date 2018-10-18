@@ -30,6 +30,9 @@ nav:
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/JavaScript.png
       - name: CSS
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
+      - name: TypeScript
+      #暂时没有icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
   - topic: Linux运维
     tags:
       - name: Linux
@@ -43,7 +46,10 @@ nav:
         # 如果标签没有 icon，则可以指定一张默认的 icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
   - topic: 杂谈
- 
+      - name: 杂谈
+        # 如果标签没有 icon，则可以指定一张默认的 icon
+        #暂时没有icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
         
 # 内容块配置
 # 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
@@ -88,6 +94,7 @@ blocks:
       - 前端开发者手册
       - javascript导学
       - webpack中文指南
+      - TypeScript使用手册
 blocks:
   # 技术方向名称
   - topic: Linux运维
