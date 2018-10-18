@@ -14,13 +14,13 @@ nav:
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/C++.png
       - name: C
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/C.png
-        - name: Go
+      - name: Go
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Go.png
-        - name: PHP
+      - name: PHP
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/PHP.png
-        - name: Java
+      - name: Java
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Java.png
-        - name: Python
+      - name: Python
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Python.png
 
   - topic: Web前端
@@ -31,10 +31,10 @@ nav:
       - name: CSS
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
       - name: TypeScript
-      #暂时没有icon
+        #暂时没有icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
       - name: Gulp
-      #暂时没有icon
+        #暂时没有icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
   - topic: Linux运维
     tags:
@@ -80,14 +80,12 @@ blocks:
     # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
       - 18个经典数据挖掘算法实现
-blocks:
   # 技术方向名称
   - topic: 杂谈
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
     # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
       - 如何做好一个程序员 
-blocks:
   # 技术方向名称
   - topic: Web前端
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
@@ -99,7 +97,6 @@ blocks:
       - webpack中文指南
       - TypeScript使用手册
       - Gulp入门指南
-blocks:
   # 技术方向名称
   - topic: Linux运维
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
