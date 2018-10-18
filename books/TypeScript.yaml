@@ -24,10 +24,10 @@ author:
   blog: www.zhongsp.com
 # 描述信息
 description: |
-heavy_check_mark TypeScript语言用于大规模应用的JavaScript开发。  |
-heavy_check_mark TypeScript支持类型，是JavaScript的超集且可以编译成纯JavaScript代码。  |
-heavy_check_mark TypeScript兼容所有浏览器，所有宿主环境，所有操作系统。  |
-heavy_check_mark TypeScript是开源的。
+  heavy_check_mark TypeScript语言用于大规模应用的JavaScript开发。  |
+  heavy_check_mark TypeScript支持类型，是JavaScript的超集且可以编译成纯JavaScript代码。  |
+  heavy_check_mark TypeScript兼容所有浏览器，所有宿主环境，所有操作系统。  |
+  heavy_check_mark TypeScript是开源的。
 # 配置教程是否该领域官方教程
 official: false
 # 教程版本号
