@@ -33,6 +33,9 @@ nav:
       - name: TypeScript
       #暂时没有icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
+      - name: Gulp
+      #暂时没有icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
   - topic: Linux运维
     tags:
       - name: Linux
@@ -95,6 +98,7 @@ blocks:
       - javascript导学
       - webpack中文指南
       - TypeScript使用手册
+      - Gulp入门指南
 blocks:
   # 技术方向名称
   - topic: Linux运维
