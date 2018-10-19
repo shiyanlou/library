@@ -1,7 +1,7 @@
 # zhaoda/webpack-handbook配置
 ---
 # 技术教程名称应总是唯一的
-name:webpack中文指南  
+name: webpack中文指南  
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: webpack-handbook
 topic: Web前端  

@@ -1,7 +1,7 @@
 # tobegit3hub/understand_linux_process配置
 ---
 # 技术教程名称应总是唯一的
-name:理解Linux进程
+name: 理解Linux进程
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: understand-linux-process
 topic: Linux运维
@@ -21,13 +21,11 @@ author:
   email: tobeg3oogle@gmail.com
   # github 主页地址
   github: github.com/tobegit3hub
+  blog:
 # 描述信息
 description: |
-  本书受理解Unix进程启发而作，用极简的篇幅深入学习进程知识。|
-
-  理解Linux进程用Go重写了所有示例程序，通过循序渐进的方法介绍Linux进程的工作原理和一切你所需要知道的概念。|
-
-  本书适合所有Linux程序员阅读。
+  本书受理解Unix进程启发而作，用极简的篇幅深入学习进程知识。
+  理解Linux进程用Go重写了所有示例程序，通过循序渐进的方法介绍Linux进程的工作原理和一切你所需要知道的概念。
 # 配置教程是否该领域官方教程
 official: false
 # 教程版本号

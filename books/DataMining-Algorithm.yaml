@@ -1,7 +1,7 @@
 # linyiqun/DataMiningAlgorithm配置
 ---
 # 技术教程名称应总是唯一的
-name:18个经典数据挖掘算法实现  
+name: 18个经典数据挖掘算法实现  
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: DataMining-Algorithm
 topic: 云计算与大数据
@@ -18,6 +18,7 @@ repository_dir: /
 # 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
 author:
   name: linyiqun
+  email:
   # github 主页地址
   github: github.com/linyiqun
   blog: blog.csdn.net/androidlushangderen

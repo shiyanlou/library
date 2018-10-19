@@ -1,7 +1,7 @@
 # xinqiu/Learn-Javascript配置
 ---
 # 技术教程名称应总是唯一的
-name:javascript导学 
+name: javascript导学 
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: Learn-Javascript
 topic: Web前端
@@ -21,6 +21,7 @@ author:
   email: xinqiu.94@gmail.com 
   # github 主页地址
   github: github.com/xinqiu
+  blog:
 # 描述信息
 description: |
   这本书将教你Javascript编程的相关基础。不管你是菜鸟还是一个有经验的程序猿，这本书是为任何想学习Javascript编程的人而准备的。

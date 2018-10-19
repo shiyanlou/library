@@ -1,7 +1,7 @@
 # bolasblack/http-api-guide配置
 ---
 # 技术教程名称应总是唯一的
-name:Http接口设计指北
+name: Http接口设计指北
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: http-api-guide
 topic: Linux运维
@@ -21,10 +21,10 @@ author:
   email: bolasblack@gmail.com
   # github 主页地址
   github: github.com/bolasblack
+  blog:
 # 描述信息
 description: |
-  文档主要目的是为设计接口时提供建议，使大家不必重复造 HTTP 协议已经完成的轮子。|
-  只是建议，不是必须遵从的要求。
+  文档主要目的是为设计接口时提供建议，使大家不必重复造 HTTP 协议已经完成的轮子。
 # 配置教程是否该领域官方教程
 official: false
 # 教程版本号

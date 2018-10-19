@@ -1,7 +1,7 @@
 # C语言常见问题集配置
 ---
 # 技术教程名称应总是唯一的
-name:C语言常见问题集  
+name: C语言常见问题集  
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: C-Common-Questions
 topic: C
@@ -9,7 +9,7 @@ topic: C
 tags:
   - C
 # 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
-# repository: 
+repository: shiyanlou/library
 # 技术教程所在的 git 仓库地址目录
 # shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
 # 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
@@ -23,12 +23,9 @@ author:
   # github:
 # 描述信息
 description: |
-  本文从英文 C-FAQ (2004 年 7 月 3 日修订版) 翻译而来。本文的 中文版权为朱群英和孙云所有。 本文的内容可以自由用于个人目的，但 是不可以未经许可出版发行。 英文版权为 Steve Summit 所有，详情 见下面的英文版权说明。|
-
-  The English version of this FAQ list is Copyright 1990-2004 by Steve Summit. Content from the book 《C Programming FAQs: Frequently Asked Questions》 is made available here by permission of the author and the publisher as a service to the community. It is intended to complement the use of the published text and is protected by international copyright laws. The on-line content may be accessed freely for personal use but may not be republished without permission.|
-
-  最新的 HTML 中译版本可以在 http://c-faq-chn.sourceforge.net/ 取得。 另外在同一地址还提供 PDF 版本的下载。在  http://sourceforge.net/projects/c-faq-chn 可以得到本文的 LATEX 源文件。|
-
+  本文从英文 C-FAQ (2004 年 7 月 3 日修订版) 翻译而来。本文的 中文版权为朱群英和孙云所有。 本文的内容可以自由用于个人目的，但 是不可以未经许可出版发行。 英文版权为 Steve Summit 所有，详情 见下面的英文版权说明。
+  The English version of this FAQ list is Copyright 1990-2004 by Steve Summit. Content from the book 《C Programming FAQs: Frequently Asked Questions》 is made available here by permission of the author and the publisher as a service to the community. It is intended to complement the use of the published text and is protected by international copyright laws. The on-line content may be accessed freely for personal use but may not be republished without permission.
+  最新的 HTML 中译版本可以在 http://c-faq-chn.sourceforge.net/ 取得。 另外在同一地址还提供 PDF 版本的下载。在  http://sourceforge.net/projects/c-faq-chn 可以得到本文的 LATEX 源文件。
   有关英文原文的问题，请咨询 Steve Summit (scs@eskimo.com)。 有关中文译稿的问题, 请联系孙云 (sunyun.s@gmail.com, 1-12章) 和朱群英 (zhu.qunying@gmail.com, 13-20章、LATEX文件编辑)。|
 # 配置教程是否该领域官方教程
 official: false

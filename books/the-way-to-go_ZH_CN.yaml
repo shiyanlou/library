@@ -1,7 +1,7 @@
 # Unknwon/the-way-to-go_ZH_CN配置
 ---
 # 技术教程名称应总是唯一的
-name:Go入门指南
+name: Go入门指南
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: the-way-to-go-ZH-CN
 topic: 后端开发
