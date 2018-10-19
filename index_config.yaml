@@ -22,7 +22,6 @@ nav:
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Java.png
       - name: Python
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Python.png
-
   - topic: Web前端
     tags:
       - name: Javascript
@@ -48,6 +47,44 @@ nav:
       - name: 机器学习
         # 如果标签没有 icon，则可以指定一张默认的 icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
+  - topic: 算法
+    tags:
+      - name: 算法
+        # 如果标签没有 icon，则可以指定一张默认的 icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
+      - name: 数据结构
+        # 如果标签没有 icon，则可以指定一张默认的 icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
+  - topic: 杂谈
+    tags:
+      - name: 杂谈
+        # 如果标签没有 icon，则可以指定一张默认的 icon
+        #暂时没有icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
+        
+# 内容块配置
+# 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
+blocks:
+  # 技术方向名称
+  - topic: 后端开发
+    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
+    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
+    books:
+      - C++并发编程
+      - Gradle实战中文版
+      - 新概念C语言
+      - Go命令教程
+      - OpenResty最佳实践
+      - php扩展开发及内核应用
+      - php开发者实践
+      - Go入门指南
+      - twisted与异步编程入门
+  # 技术方向名称
+  - topic: 云计算与大数据
+    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
+    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
+    books:
+      - 18个经典数据挖掘算法实现
   - topic: 杂谈
     tags:
       - name: 杂谈
