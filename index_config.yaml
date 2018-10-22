@@ -22,6 +22,9 @@ nav:
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Java.png
       - name: Python
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Python.png
+      - name: Ruby
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Ruby.png
+
   - topic: Web前端
     tags:
       - name: Javascript
@@ -29,7 +32,7 @@ nav:
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/JavaScript.png
       - name: CSS
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
-      - name: TypeScript
+      - name: Typescript
         #暂时没有icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
       - name: Gulp
@@ -59,8 +62,8 @@ nav:
     tags:
       - name: 杂谈
         # 如果标签没有 icon，则可以指定一张默认的 icon
-        #暂时没有icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
+        # 暂时没有icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
         
 # 内容块配置
 # 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
