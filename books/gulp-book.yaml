@@ -18,7 +18,7 @@ repository_dir: /
 # 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
 author:
   name: Nimo
-  #email: loongchen25@126.com 
+  # email: loongchen25@126.com 
   # github 主页地址
   github: github.com/onface
   blog:

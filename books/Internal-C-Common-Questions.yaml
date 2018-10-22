@@ -18,7 +18,7 @@ repository_dir: /internal/C-Common-Questions
 # 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
 author:
   name: 孙云/朱群英
-  email: sunyun.s@gmail.com/zhu.qunying@gmail.com
+  email: sunyun.s@gmail.com
   # github 主页地址
   # github:
 # 描述信息
