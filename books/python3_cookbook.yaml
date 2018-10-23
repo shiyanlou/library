@@ -1,7 +1,7 @@
 # yidao620c/python3-cookbook配置
 ---
 # 技术教程名称应总是唯一的
-name: python3 Cookbook  
+name: Python3 Cookbook  
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: python3-cookbook
 topic: 后端开发
