@@ -1,0 +1,31 @@
+# justinyhuang/the-little-mongodb-book-cn配置
+---
+# 技术教程名称应总是唯一的
+name: MongoDB小书  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: the-little-mongodb-book-cn
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - MongoDB
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: justinyhuang/the-little-mongodb-book-cn
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: justinyhuang
+  email: yang.huang@ymail.com 
+  # github 主页地址
+  github: github.com/justinyhuang
+  blog: justinyhuang.github.io
+# 描述信息
+description: |
+  本章很短，但不是我的错，MongoDB就是那么简单易学。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
