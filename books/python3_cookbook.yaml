@@ -1,0 +1,35 @@
+# yidao620c/python3-cookbook配置
+---
+# 技术教程名称应总是唯一的
+name: python3 Cookbook  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: python3-cookbook
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Python
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: yidao620c/python3-cookbook
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: 熊能
+  email: yidao620@gmail.com
+  # github 主页地址
+  github: github.com/yidao620c
+  blog: www.xncoding.com
+# 描述信息
+description: |
+  人生苦短，我用Python！
+  译者一直坚持使用Python3，因为它代表了Python的未来。虽然向后兼容是它的硬伤，但是这个局面迟早会改变的， 而且Python3的未来需要每个人的帮助和支持。 目前市面上的教程书籍，网上的手册大部分基本都是2.x系列的，专门基于3.x系列的书籍少的可怜。
+  最近看到一本《Python Cookbook》3rd Edition，完全基于Python3，写的也很不错。 为了Python3的普及，我也不自量力，想做点什么事情。于是乎，就有了翻译这本书的冲动了！ 这不是一项轻松的工作，却是一件值得做的工作：不仅方便了别人，而且对自己翻译能力也是一种锻炼和提升。
+  译者会坚持对自己每一句的翻译负责，力求高质量。但受能力限制，也难免有疏漏或者表意不当的地方。 如果译文中有什么错漏的地方请大家见谅，也欢迎大家随时指正。
+  目前已经正式完成了整本书的翻译工作，历时2年，不管怎样还是坚持下来了。现在共享给python社区。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
