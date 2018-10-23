@@ -1,0 +1,34 @@
+# MoyanZitto/keras-cn配置
+---
+# 技术教程名称应总是唯一的
+name: Keras中文文档  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: keras-cn
+topic: 云计算与大数据
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 机器学习
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: MoyanZitto/keras-cn
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: BigMoyan
+  email: moyan_work@foxmail.com 
+  # github 主页地址
+  github: github.com/MoyanZitto
+  blog: github.com/MoyanZitto
+# 描述信息
+description: |
+  本项目由BigMoyan于2016-4-29发起，旨在建立一个keras.io的中文版文档，并提供更多用户友好的支持与建议。
+  本项目目前已完成2.x版本。
+  如果你在使用keras和keras-cn的过程中有任何问题，请发在issue中，我会定时检查和回复，在issue中你也可以和志同道合的好基友们一起聊天~
+  项目基于Mkdocs生成静态网页，如果你想为文档做出贡献，请使用Markdown编写文档并遵守以下约定。
+# 配置教程是否该领域官方教程
+official: true
+# 教程版本号
+version: 1.0
