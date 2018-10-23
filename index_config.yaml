@@ -50,6 +50,9 @@ nav:
       - name: Redux
         #暂时没有icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
+      - name: ECMAScript
+        #暂时没有icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
   - topic: Linux运维
     tags:
       - name: Linux
@@ -135,6 +138,7 @@ blocks:
       - TypeScript使用手册
       - Gulp入门指南
       - Redux简明教程
+      - ECMAScript 6入门
   # 技术方向名称
   - topic: Linux运维
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
