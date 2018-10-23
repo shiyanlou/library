@@ -24,6 +24,8 @@ nav:
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Python.png
       - name: Ruby
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Ruby.png
+      - name: MongoDB
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/MongoDB.png
 
   - topic: Web前端
     tags:
