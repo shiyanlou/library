@@ -1,0 +1,35 @@
+# ruanyf/es6tutorial配置
+---
+# 技术教程名称应总是唯一的
+name: ECMAScript 6入门
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: es6tutorial
+topic: Web前端
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - ECMAScript
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: ruanyf/es6tutorial
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: 阮一峰
+  email: yifeng.ruan@gmail.com
+  # github 主页地址
+  github: github.com/ruanyf
+  blog: ruanyifeng.com/home.html
+# 描述信息
+description: |
+  《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。
+  本书覆盖 ES6 与上一个版本 ES5 的所有不同之处，对涉及的语法知识给予详细介绍，并给出大量简洁易懂的示例代码。
+  本书为中级难度，适合已经掌握 ES5 的读者，用来了解这门语言的最新发展；也可当作参考手册，查寻新增的语法点。如果你是 JavaScript 语言的初学者，建议先学完《JavaScript 语言入门教程》，再来看本书。
+  全书已由电子工业出版社出版，2017年9月推出了第三版，书名为《ES6 标准入门》。纸版是基于网站内容排版印刷的。
+  感谢张春雨编辑支持我将全书开源的做法。如果您认可这本书，建议购买纸版。这样可以使出版社不因出版开源书籍而亏钱，进而鼓励更多的作者开源自己的书籍。下面是第三版的购买地址。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
