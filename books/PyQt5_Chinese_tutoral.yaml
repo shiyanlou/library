@@ -1,0 +1,34 @@
+# maicss/PyQt5-Chinese-tutoral配置
+---
+# 技术教程名称应总是唯一的
+name: pyQT5教程
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: PyQt5-Chinese-tutoral
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Python
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: maicss/PyQt5-Chinese-tutoral
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: maicss
+  email: maicss@foxmail.com 
+  # github 主页地址
+  github: github.com/maicss
+  blog: maicss.com
+# 描述信息
+description: |
+  PyQt5中文教程，翻译自 zetcode，项目地址：https://github.com/maicss/PyQt5-Chinese-tutoral
+  这个教程比较好的地方是，能讲解每一段代码的含义。
+  虽然PyQt的函数命名已经非常语义化了，但是对于新手来说，有这一步还是更好的。
+  所以我选择了翻译这篇教程，希望能给刚入门的你带来帮助。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
