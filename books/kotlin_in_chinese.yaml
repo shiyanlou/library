@@ -1,0 +1,33 @@
+# huanglizhuo/kotlin-in-chinese配置
+---
+# 技术教程名称应总是唯一的
+name: kotlin官方文档翻译
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: kotlin-in-chinese
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Java
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: huanglizhuo/kotlin-in-chinese
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: huanglizhuo
+  email: 
+  # github 主页地址
+  github: github.com/huanglizhuo
+  blog: github.com/huanglizhuo
+# 描述信息
+description: |
+  Android 世界的 Swift 终于发布1.0版本
+  Kotlin 是一个实用性很强的语言，专注于互通，安全，简洁，工具健全...
+  无缝支持 Java+Kotlin 项目，可以更少的使用样版代码，确保类型安全。
+# 配置教程是否该领域官方教程
+official: true
+# 教程版本号
+version: 1.0
