@@ -1,0 +1,31 @@
+# camsong/redux-in-chinese配置
+---
+# 技术教程名称应总是唯一的
+name: Redux中文文档 
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: redux-in-chinese
+topic: Web前端
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Redux
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: camsong/redux-in-chinese
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: Cam Song
+  email: neosoyn@gmail.com
+  # github 主页地址
+  github: github.com/camsong
+  blog: github.com/camsong
+# 描述信息
+description: |
+  本文档从建立之初，帮助了非常多的小伙伴学习 Redux，也收到了 Redux 作者 Dan 的多次点赞。目前每天浏览量大概在一万左右。但由于几位作者工作都比较忙，很多文档已经过期，却也没有时间更新。如果你有时间，希望你和我们一起翻译，帮助更多人，欢迎提交 PR。不知何处下手不用怕？我们为你准备好了完善的 ETC 翻译文档。回复 issue 认领 https://github.com/camsong/redux-in-chinese/issues heart heart heart
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
