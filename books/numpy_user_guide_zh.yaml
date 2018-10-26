@@ -4,7 +4,7 @@
 name: numpy用户指南
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: numpy-user-guide-zh
-topic: 云计算与大数据
+topic: 大数据与云计算
 # 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
 tags:
   - 机器学习
