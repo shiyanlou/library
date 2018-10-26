@@ -82,6 +82,12 @@ nav:
         # 如果标签没有 icon，则可以指定一张默认的 icon
         # 暂时没有icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
+  - topic: 区块链
+    tags:
+      - name: 以太坊
+        # 如果标签没有 icon，则可以指定一张默认的 icon
+        # 暂时没有icon
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
         
 # 内容块配置
 # 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
@@ -110,8 +116,9 @@ blocks:
       - kotlin官方文档翻译
       - Julia中文文档
       - rails实践
+      - Java并发知识点总结
   # 技术方向名称
-  - topic: 云计算与大数据
+  - topic: 大数据与云计算
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
     # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
@@ -120,12 +127,14 @@ blocks:
       - Keras中文文档
       - kubernetes中文指南
       - numpy用户指南
+      - kubernetes完全教程
   # 技术方向名称
   - topic: 杂谈
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
     # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
-      - 如何做好一个程序员 
+      - 如何做好一个程序员
+      - 程序员的自我修养
   # 技术方向名称
   - topic: Web前端
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
@@ -139,6 +148,7 @@ blocks:
       - Gulp入门指南
       - Redux简明教程
       - ECMAScript 6入门
+      - Redux中文文档
   # 技术方向名称
   - topic: Linux运维
     # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
@@ -150,3 +160,10 @@ blocks:
       - 理解Linux进程
       - 像IDE一样实验Vim
       - Linux工具快速教程
+  # 技术方向名称
+  - topic: 区块链
+    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
+    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
+    books:
+      - Go Ethereum
+  
