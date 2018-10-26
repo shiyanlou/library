@@ -1,0 +1,39 @@
+# jolestar/kubernetes-complete-course配置
+---
+# 技术教程名称应总是唯一的
+name: kubernetes完全教程 
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: kubernetes-complete-course
+topic: 大数据与云计算
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Kubernetes
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: jolestar/kubernetes-complete-course
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: jolestar
+  email: 
+  # github 主页地址
+  github: github.com/jolestar
+  blog: jolestar.com
+# 描述信息
+description: |
+  这个教程是一个公开课系列课程，预计包含8课（包含一节预备课）。
+  预备课：Docker 以及 Docker 网络
+  第一课：Kubernetes 架构概述
+  第二课：Kubernetes 的安装和运维
+  第三课：Kubernetes 的网络和存储
+  第四课：Kubernetes 的 API Spec 以及安全机制
+  第五课：Kubernetes 的 Pod 放置放置策略以及应用案例
+  第六课：Kubernetes 的日志监控与故障排除
+  第七课：Kubernetes 的扩展开发概述
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
