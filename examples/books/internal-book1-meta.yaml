@@ -30,3 +30,11 @@ description: |
   这是一段较长的教程描述信息，在 YAML 中可以通过 "|" 或者 ">" 来书写多行文本。具体参考
   YAML 语法文档中的 "Block Styles" 章节。
 version: 1.0
+# 教程章节信息
+chapters:
+  # 章节名称
+  - name: 介绍
+    # 章节文档路径，路径相对于 respository_dir 目录
+    path: /chapter1.md
+  - name: 第一节
+    path: /README.md
