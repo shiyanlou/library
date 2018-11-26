@@ -9,86 +9,157 @@ nav:
   # 技术方向允许包含多个标签
   - topic: 后端开发
     tags:
+      - name: Python
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Python.png
       - name: C++
-        # 标签的 icon 图片链接地址，必须是有效的图片链接
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/C++.png
+      - name: Java
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Java.png
       - name: C
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/C.png
       - name: Go
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Go.png
       - name: PHP
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/PHP.png
-      - name: Java
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Java.png
-      - name: Python
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Python.png
+      - name: NodeJS
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/NodeJS.png
       - name: Ruby
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Ruby.png
-      - name: MongoDB
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/MongoDB.png
+      - name: 爬虫
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/WebCrawler.png
       - name: Django
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Django.png
+      - name: Flask
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Flask.png
+      - name: 机器学习
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
+      - name: Git
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Git.png
+      - name: Spring
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Spring.png
+      - name: SSM
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/SSM.png
+      - name: ThinkPHP
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/ThinkPHP.png
+      - name: Laravel
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Laravel.png
+      - name: R
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/R.png
+      - name: Julia
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
       - name: OpenCV
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/OpenCV.png
-        #暂时没有icon
-      - name: Julia
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/OpenCV.png
-
   - topic: Web前端
     tags:
+      - name: Web
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Web.png
       - name: Javascript
-        # 如果标签没有 icon，则可以指定一张默认的 icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/JavaScript.png
+      - name: HTML
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/HTML.png
+      - name: React
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/React.png
+      - name: Vuejs
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Vuejs.png
       - name: CSS
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
+      - name: Bootstrap
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Bootstrap.png
+      - name: Electron
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Electron.png
       - name: Typescript
-        #暂时没有icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
-      - name: Gulp
-        #暂时没有icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
-      - name: Redux
-        #暂时没有icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
-      - name: ECMAScript
-        #暂时没有icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CSS.png
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
+      - name: HTML5
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/HTML5.png
   - topic: Linux运维
     tags:
       - name: Linux
-        # 如果标签没有 icon，则可以指定一张默认的 icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Linux.png
       - name: 网络
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Network.png
-  - topic: 大数据与云计算
+      - name: Shell
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Shell.png
+      - name: Ansible
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Ansible.png
+      - name: Nginx
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Nginx.png
+      - name: SDN
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/SDN.png
+  - topic: 云计算与数据分析
     tags:
       - name: 机器学习
-        # 如果标签没有 icon，则可以指定一张默认的 icon
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
-      - name: Kubernetes
-        # 暂时没有icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
-  - topic: 算法
+      - name: Docker
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Docker.png
+      - name: Spark
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Spark.png
+      - name: 云计算
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/CloudComputing.png
+      - name: HBase
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/HBase.png
+      - name: Hadoop
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Hadoop.png
+      - name: Hive
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Hive.png
+      - name: Kafka
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Kafka.png
+      - name: Mahout
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Mahout.png
+      - name: OpenStack
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/OpenStack.png
+  - topic: 数据库
+    tags:
+      - name: SQL
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/SQL.png
+      - name: MySQL
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/MySQL.png
+      - name: NoSQL
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/NoSQL.png
+      - name: MongoDB
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/MongoDB.png
+      - name: Redis
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Redis.png
+  - topic: 移动开发
+    tags:
+      - name: Android
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Android.png
+      - name: iOS
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
+      - name: Swift
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Swift.png
+  - topic: 信息安全
+    tags:
+      - name: Kali
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Kali.png
+      - name: Web安全
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Web-Security.png
+      - name: 密码学
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/EncryptDecrypt.png
+      - name: 信息隐藏
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/InformationHiding.png
+      - name: 网络安全
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Network-Security.png
+      - name: 安全开发
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Secure-Development.png
+      - name: 渗透测试
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/PenetrationTest.png
+      - name: 系统安全
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/System-Security.png
+  - topic: 其他技术
     tags:
       - name: 算法
-        # 如果标签没有 icon，则可以指定一张默认的 icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
-      - name: 数据结构
-        # 如果标签没有 icon，则可以指定一张默认的 icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Machine-Learnin.png
-  - topic: 杂谈
-    tags:
-      - name: 杂谈
-        # 如果标签没有 icon，则可以指定一张默认的 icon
-        # 暂时没有icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
-  - topic: 区块链
-    tags:
-      - name: 以太坊
-        # 如果标签没有 icon，则可以指定一张默认的 icon
-        # 暂时没有icon
-        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
-        
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Calculation.png
+      - name: 区块链
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Blockchain.png
+      - name: 编程基础
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Beginner.png
+      - name: 设计模式
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Design-Pattern.png
+      - name: 机器人
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/ROS.png
+      - name: Windows
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Windows.png
+
 # 内容块配置
 # 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
 blocks:
