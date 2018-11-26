@@ -4,10 +4,11 @@
 name: kubernetes中文指南  
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: kubernetes-handbook
-topic: 大数据与云计算
+topic: 云计算与数据分析
 # 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
 tags:
-  - Kubernetes
+  - Docker
+  - 云计算
 # 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
 repository: rootsongjc/kubernetes-handbook
 # 技术教程所在的 git 仓库地址目录

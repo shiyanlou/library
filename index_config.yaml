@@ -153,6 +153,8 @@ nav:
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Blockchain.png
       - name: 编程基础
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Beginner.png
+      - name: 职业生涯
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
       - name: 设计模式
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Design-Pattern.png
       - name: 机器人
@@ -163,53 +165,27 @@ nav:
 # 内容块配置
 # 技术教程首页内容由若干个块组成，每一个块包含一个技术方向及其指定的教程
 blocks:
-  # 技术方向名称
   - topic: 后端开发
-    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
-    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
       - C++并发编程
       - Gradle实战中文版
       - 新概念C语言
+      - C语言常见问题集
       - Go命令教程
-      - OpenResty最佳实践
       - php扩展开发及内核应用
       - php开发者实践
       - Go入门指南
       - twisted与异步编程入门
       - Python3 Cookbook
-      - MongoDB小书
       - Django源码小剖
       - CGDB中文手册
-      - 使用Express+MongoDB搭建多人博客
       - Opencv中文文档(Python)
       - pyQT5教程
       - kotlin官方文档翻译
       - Julia中文文档
       - rails实践
       - Java并发知识点总结
-  # 技术方向名称
-  - topic: 大数据与云计算
-    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
-    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
-    books:
-      - 18个经典数据挖掘算法实现
-      - 神经网络与深度学习
-      - Keras中文文档
-      - kubernetes中文指南
-      - numpy用户指南
-      - kubernetes完全教程
-  # 技术方向名称
-  - topic: 杂谈
-    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
-    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
-    books:
-      - 如何做好一个程序员
-      - 程序员的自我修养
-  # 技术方向名称
   - topic: Web前端
-    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
-    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
       - CSS3教程
       - 前端开发者手册
@@ -220,10 +196,7 @@ blocks:
       - Redux简明教程
       - ECMAScript 6入门
       - Redux中文文档
-  # 技术方向名称
   - topic: Linux运维
-    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
-    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
     books:
       - Http API设计指南
       - Http接口设计指北
@@ -231,10 +204,23 @@ blocks:
       - 理解Linux进程
       - 像IDE一样实验Vim
       - Linux工具快速教程
-  # 技术方向名称
-  - topic: 区块链
-    # 内容块需要展示的教程名称列表，所以技术教程名称应总是唯一的
-    # 教程按照配置的顺序进行展示，可以配置任意多个教程，
+      - OpenResty最佳实践
+  - topic: 云计算与数据分析
     books:
+      - 18个经典数据挖掘算法实现
+      - 神经网络与深度学习
+      - Keras中文文档
+      - kubernetes中文指南
+      - numpy用户指南
+      - kubernetes完全教程
+  - topic: 数据库
+    books:
+      - MongoDB小书
+      - 使用Express+MongoDB搭建多人博客
+  - topic: 其他技术
+    books:
+      - 实验楼使用指南
+      - 如何做好一个程序员
+      - 数据结构与算法/leetcode/lintcode题解
+      - 程序员的自我修养
       - Go Ethereum
-  

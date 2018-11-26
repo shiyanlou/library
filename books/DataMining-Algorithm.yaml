@@ -4,7 +4,7 @@
 name: 18个经典数据挖掘算法实现  
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: DataMining-Algorithm
-topic: 大数据与云计算
+topic: 云计算与数据分析
 # 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
 tags:
   - 机器学习

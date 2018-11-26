@@ -4,10 +4,10 @@
 name: 程序员的自我修养  
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: a-programmer-prepares
-topic: 杂谈
+topic: 其他技术
 # 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
 tags:
-  - 杂谈
+  - 职业生涯
 # 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
 repository: leohxj/a-programmer-prepares
 # 技术教程所在的 git 仓库地址目录

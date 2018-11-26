@@ -8,6 +8,7 @@ topic: Web前端
 # 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
 tags:
   - Javascript
+  - Web
 # 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
 repository: zhaoda/webpack-handbook
 # 技术教程所在的 git 仓库地址目录
