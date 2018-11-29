@@ -192,13 +192,10 @@ blocks:
       - webpack中文指南
       - TypeScript使用手册
       - Gulp入门指南
-      - Redux简明教程
       - ECMAScript 6入门
       - Redux中文文档
   - topic: Linux运维
     books:
-      - Http API设计指南
-      - Http接口设计指北
       - 快乐的 Linux 命令行
       - 理解Linux进程
       - 像IDE一样实验Vim
