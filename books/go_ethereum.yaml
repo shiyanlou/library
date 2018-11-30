@@ -29,3 +29,99 @@ description: |
 official: false
 # 教程版本号
 version: 1.0
+chapters:
+  - name: 什么是以太坊
+    path: /0.1什么是以太坊.md
+  - name: 1. 安装并运行节点
+    path: /1安装并运行节点.md
+    chapters:
+      - name: 1.1 平台
+        path: /1.1平台.md
+        chapters:
+          - name: 1.1.1 Linux
+            path: /1.1.1Linux.md
+          - name: 1.1.2 Mac
+            path: /1.1.2Mac.md
+          - name: 1.1.3 Windows
+            path: /1.1.3Windows.md
+          - name: 1.1.4 Docker
+            path: /1.1.4Docker.md
+          - name: 1.1.5 ARM
+            path: /1.1.5ARM.md
+      - name: 1.2 备份和恢复
+        path: /1.2备份和恢复.md
+      - name: 1.3 连接至网络
+        path: /1.3连接至网络.md
+      - name: 1.4 监控你的节点
+        path: /1.4监控你的节点.md
+      - name: 1.5 设置集群
+        path: /1.5设置集群.md
+  - name: 2. 管理账户
+    path: /2.管理账户.md
+    chapters:
+      - name: 2.1 创建账户
+        path: /2.1创建账户.md
+      - name: 2.2 导入你的presale钱包
+        path: /2.2导入你的presale钱包.md
+      - name: 2.3 列出账户和检查余额
+        path: /2.3列出账户和检查余额.md
+      - name: 2.4 发送以太
+        path: /2.4发送以太.md
+  - name: 3. 采矿
+    path: /3.1介绍.md
+    chapters:
+      - name: 3.1 在geth上用CPU采矿
+        path: /3.2在geth上用CPU采矿.md
+      - name: 3.2 GPU挖矿
+        path: /3.3GPU挖矿.md
+  - name: 4. 接口
+    path: /4.接口.md
+    chapters:
+      - name: 4.1 命令行接口和选项
+        path: /4.1命令行接口和选项.md
+      - name: 4.2 JSON RPC API
+        path: /4.2JSON RPC API.md
+      - name: 4.3 JavaScript API for Dapps
+        path: /4.3JavaScript API for Dapps.md
+      - name: 4.4 JavaScript Console
+        path: /4.4JavaScript Console.md
+  - name: 5合约与交易.md
+    path: /5合约与交易.md
+    chapters:
+      - name: 5.1 账户类型与交易
+        path: /5.1账户类型与交易.md
+      - name: 5.2 ether转移
+        path: /5.2ether转移.md
+      - name: 5.3 制定合约
+        path: /5.3制定合约.md
+      - name: 5.4 编译合约
+        path: /5.4编译合约.md
+      - name: 5.5 生成和部署合约
+        path: /5.5生成和部署合约.md
+      - name: 5.6 Gas和交易花费
+        path: /5.6Gas和交易花费.md
+      - name: 5.7 与合约交互
+        path: /5.7与合约交互.md
+      - name: 5.8 合约信息(元数据)
+        path: /5.8合约信息(元数据).md
+      - name: 5.9 NatSpec
+        path: /5.9NatSpec.md
+      - name: 5.10 测试合约及交易
+        path: /5.10测试合约及交易.md
+      - name: 5.11 注册服务
+        path: /5.11注册服务.md
+      - name: 5.12 示例脚本
+        path: /5.12示例脚本.md
+      - name: 5.13 合约教程
+        path: /5.13合约教程.md
+        chapters:
+          - name: 5.13.1 接待员
+            path: /5.13.1接待员.md
+          - name: 5.13.2 注册商
+            path: /5.13.2注册商.md
+          - name: 5.13.3 货币合约
+            path: /5.13.3货币合约.md
+          - name: 5.13.4 众筹者
+            path: /5.13.4众筹者.md
+          - name: 5.13.5 民主DAO
+            path: /5.13.5民主DAO.md
