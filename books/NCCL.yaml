@@ -32,3 +32,100 @@ description: |
 official: false
 # 教程版本号
 version: 1.1
+chapters:
+  - name: Lesson 1 - 最简单的C程序
+    path: /Unit-1/Lesson-1.md
+  - name: Lesson 2 - 打印输出   
+    path: /Unit-1/Lesson-2.md
+  - name: Lesson 3 - 循环打印  
+    path: /Unit-1/Lesson-3.md
+  - name: Lesson 4 - 判断奇偶
+    path: /Unit-1/Lesson-4.md
+  - name: Lesson 5 - 从1加到100求和  
+    path: /Unit-1/Lesson-5.md
+  - name：Lesson 6 - 乘法表
+    path: /Unit-1/Lesson-6.md
+  - name: Lesson 7 - 求100以内的最大素数
+    path: /Unit-1/Lesson-7.md
+  - name: Lesson 8 - 1到100有多少个9
+    path: /Unit-1/Lesson-8.md
+  - name: Lesson 9 - 整型转字符串
+    path: /Unit-1/Lesson-9.md
+  - name: Lesson 10 - 约瑟夫环
+    path: /Unit-1/Lesson-10.md
+  - name: Lesson 11 - 求两个坐标点之间的距离
+    path: /Unit-1/Lesson-11.md
+  - name: Lesson 12 - 判断机器存储是否小尾端
+    path: /Unit-1/Lesson-12.md
+  - name: Lesson 13 - 对不起，你的车今天限行
+    path: /Unit-1/Lesson-13.md
+  - name: Lesson 14 - 判断地图上某点是否有出路
+    path: /Unit-1/Lesson-14.md
+  - name: Lesson 15 - 统计一个数二进制表示中1的个数 
+    path: /Unit-1/Lesson-15.md
+  - name: Lesson 16 - 字符串拷贝
+    path: /Unit-1/Lesson-16.md
+  - name: Lesson 17 - 统计单词个数
+    path: /Unit-1/Lesson-17.md
+  - name: Lesson 18 - 实现 printf
+    path: /Unit-1/Lesson-18.md
+  - name: Lesson 19 - 命令解释器
+    path: /Unit-1/Lesson-19.md
+  - name: Lesson 20 - 预处理器实现
+    path: /Unit-1/Lesson-20.md
+  - name: Lesson 21 - 词法分析器实现
+    path: /Unit-1/Lesson-21.md
+  - name: Lesson 22 - 猜数游戏
+    path: /Unit-1/Lesson-22.md
+  - name: Lesson 23 - 五子棋
+    path: /Unit-1/Lesson-23.md
+  - name: Lesson 24 - 超链接分析器
+    path: /Unit-1/Lesson-24.md
+  - name: Lesson 25 - cp命令实现
+    path: /Unit-2/Lesson-25.md
+  - name: Lesson 26 - ELF文件头分析器实现
+    path: /Unit-2/Lesson-26.md
+  - name: Lesson 27 - 简单流处理器实现和正则表达式
+    path: /Unit-2/Lesson-27.md
+  - name: Lesson 28 - 数学计算器实现
+    path: /Unit-2/Lesson-28.md
+  - name: Lesson 29 - 数学计算器实现more命令实现  
+    path: /Unit-2/Lesson-29.md
+  - name: Lesson 30 - sort命令实现  
+    path: /Unit-2/Lesson-30.md
+  - name: Lesson 31 - ls -l命令实现
+    path: /Unit-2/Lesson-31.md
+  - name: Lesson 32 - Bash项目
+    path: /Unit-2/Lesson-32.md
+  - name: Lesson 33 - 动态数组实现
+    path: /Unit-2/Lesson-33.md
+  - name: Lesson 34 - 约瑟夫环问题
+    path: /Unit-2/Lesson-34.md
+  - name: Lesson 35 - 表达式求值问题
+    path: /Unit-2/Lesson-35.md
+  - name: Lesson 36 - 广度优先解决迷宫问题
+    path: /Unit-2/Lesson-36.md
+  - name: Lesson 37 - 词频统计器
+    path: /Unit-2/Lesson-37.md
+  - name: Lesson 38 - 堆排序问题
+    path: /Unit-2/Lesson-38.md
+  - name: Lesson 39 - 构造符号表
+    path: /Unit-2/Lesson-39.md
+  - name: Lesson 40 - MyDictionary项目
+    path: /Unit-2/Lesson-40.md
+  - name: Lesson 41 - BSearch 实现  
+    path: /Unit-2/Lesson-41.md
+  - name: Lesson 42 - QSort 实现
+    path: /Unit-2/Lesson-42.md
+  - name: Lesson 43 - 深度优先解决迷宫问题
+    path: /Unit-2/Lesson-43.md
+  - name: Lesson 44 - KMP 算法实现 
+    path: /Unit-2/Lesson-44.md
+  - name: Lesson 45 - 最长公共子序列(LCS)问题
+    path: /Unit-2/Lesson-45.md
+  - name: Lesson 46 - Dijkstra 算法
+    path: /Unit-2/Lesson-46.md
+  - name: Lesson 47 - Huffman Coding 算法
+    path: /Unit-2/Lesson-47.md
+  - name: Lesson 48 - 地图导航项目
+    path: /Unit-2/Lesson-48.md
