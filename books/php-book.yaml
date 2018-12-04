@@ -29,3 +29,245 @@ description: |
 official: false
 # 教程版本号
 version: 1.1
+chapters:
+  - name: 前言
+    path: /index.md
+  - name: 1. PHP的生命周期
+    path: /1.md
+    chapters:
+      - name: 1.1 让我们从SAPI开始
+        path: /1.1.md
+      - name: 1.2 PHP的启动与终止
+        path: /1.2.md
+      - name: 1.3 PHP的生命周期
+        path: /1.3.md
+      - name: 1.4 线程安全
+        path: /1.4.md
+      - name: 1.5 小结
+        path: /1.5.md
+  - name: 2. PHP变量在内核中的实现 
+    path: /2.md
+    chapters:
+      - name: 2.1 变量的类型
+        path: /2.1.md
+      - name: 2.2 变量的值
+        path: /2.2.md
+      - name: 2.3 创建PHP变量  
+        path: /2.3.md
+      - name: 2.4 变量的存储方式
+        path: /2.4.md
+      - name: 2.5 变量的检索
+        path: /2.5.md
+      - name: 2.6 类型转换
+        path: /2.6.md
+      - name: 2.7 小结
+        path: /2.7.md
+  - name: 3. 内存管理
+    path: /3.md
+    chapters:
+      - name: 3.1 内存管理
+        path: /3.1.md
+      - name: 3.2 引用计数
+        path: /3.2.md
+      - name: 3.3 小结
+        path: /3.3.md
+  - name: 4. 配置编译环境
+    path: /4.md
+    chapters:
+      - name: 4.1 编译前的准备
+        path: /4.1.md
+      - name: 4.2 PHP编译前的config配置
+        path: /4.2.md
+      - name: 4.3 Unix/Linux平台下的编译
+        path: /4.3.md
+      - name: 4.4 在Win32平台上编译PHP
+        path: /4.4.md
+      - name: 4.5 小结
+        path: /4.5.md
+  - name: 5. 第一个扩展
+    path: /5.md
+    chapters:
+      - name: 5.1 一个扩展的基本结构
+        path: /5.1.md
+      - name: 5.2 编译我们的扩展
+        path: /5.2.md
+      - name: 5.3 静态编译
+        path: /5.3.md
+      - name: 5.4 编写函数
+        path: /5.4.md
+      - name: 5.5 小结
+        path: /5.5.md
+  - name: 6. 函数的返回值
+    path: /6.md
+    chapters:
+      - name: 6.1 一个特殊的参数：return_value
+        path: /6.1.md
+      - name: 6.2 引用与函数的执行结果
+        path: /6.2.md
+      - name: 6.3 小结
+        path: /6.3.md
+  - name: 7. 函数的参数
+    path: /7.md
+    chapters:
+      - name: 7.1 zend_parse_parameters
+        path: /7.1.md
+      - name: 7.2 Arg Info 与类型绑定
+        path: /7.2.md
+      - name: 7.3 小结  
+        path: /7.3.md
+  - name: 8. Array与HashTable
+    path: /8.md
+    chapters:
+      - name: 8.1 数组(C中的)与链表
+        path: /8.1.md
+      - name: 8.2 操作HashTable的API
+        path: /8.2.md
+      - name: 8.3 在内核中操作PHP语言中数组
+        path: /8.3.md
+      - name: 8.4 小结
+        path: /8.4.md
+  - name: 9. PHP中的资源类型
+    path: /9.md
+    chapters:
+      - name: 9.1 复合类型的数据——资源
+        path: /9.1.md
+      - name: 9.2 Persistent Resources
+        path: /9.2.md
+      - name: 9.3资源自有的引用计数
+        path: /9.3.md
+      - name: 9.4 小结
+        path: /9.4.md
+  - name: 10. PHP中的面向对象（一）
+    path: /10.md
+    chapters:
+      - name: 10.1 zend_class_entry 
+        path: /10.1.md
+      - name: 10.2 定义一个类
+        path: /10.2.md
+      - name: 10.3 定义一个接口
+        path: /10.3.md
+      - name: 10.4 类的继承与接口的实现
+        path: /10.4.md
+      - name: 10.5 小结
+        path: /10.5 小结
+  - name: 11. PHP中的面向对象（二） 
+    path: /11.md
+    chapters:
+      - name: 11.1 生成对象的实例与调用方法
+        path: /11.1.md
+      - name: 11.2 读写对象的属性
+        path: /11.2.md
+      - name: 11.3 小结
+        path: /11.3.md
+  - name: 12. 启动与终止的那点事
+    path: /12.md
+    chapters:
+      - name: 12.1 关于生命周期 
+        path: /12.1.md
+      - name: 12.2 MINFO与phpinfo
+        path: /12.2.md
+      - name: 12.3 常量
+        path: /12.3.md
+      - name: 12.4 PHP扩展中的全局变量
+        path: /12.4.md
+      - name: 12.5 PHP语言中的超级全局变量
+        path: /12.5.md
+      - name: 12.6 小结
+        path: /12.6.md
+  - name: 13. INI设置
+    path: /13.md
+    chapters:
+      - name: 13.1 读写ini配置
+        path: /13.1.md
+      - name: 13.2 小结
+        path: /13.2.md
+  - name: 14. 流式访问
+    path: /14.md
+    chapters:
+      - name: 14.1 流的概览
+        path: /14.1.md
+      - name: 14.2 打开与读写流
+        path: /14.2.md
+      - name: 14.3 Static Stream Operations
+        path: /14.3.md
+      - name: 14.4 小结
+        path: /14.4.md
+  - name: 15. 流的实现
+    path: /15.md
+    chapters:
+      - name: 15.1 PHP Streams的本质
+        path: /15.1.md
+      - name: 15.2 流的封装——wrapper
+        path: /15.2.md
+      - name: 15.3 实现wrapper
+        path: /15.3.md
+      - name: 15.4 Manipulation
+        path: /15.4.md
+      - name: 15.5 状态与属性读取
+        path: /15.5.md
+      - name: 15.6 小结
+        path: /15.6.md
+  - name: 16. 有趣的流
+    path: /16.md
+    chapters:
+      - name: 16.1 流的上下文
+        path: /16.1.md
+      - name: 16.2 流的过滤器
+        path: /16.2.md
+      - name 16.3 小结
+        path: /16.3.md
+  - name: 17. 配置和链接
+    path: /17.md
+    chapters:
+      - name: 17.1 Autoconf 
+        path: /17.1.md
+      - name: 17.2 库的查找
+        path: /17.2.md
+      - name: 17.3 强制模块依赖
+        path: /17.3.md
+      - name: 17.4 Speaking the Windows Dialect
+        path: /17.4.md
+      - name: 17.5 小结
+        path: /17.5.md
+  - name: 18. 扩展生成器
+    path: /18.md
+    chapters:
+      - name: 18.1 ext_skel生成器
+        path: /18.1.md
+      - name: 18.2 PECL_Gen生成器
+        path: /18.2.md
+      - name: 18.3 小结
+        path: /18.3.md
+  - name: 19. 设置宿主环境
+    path: /19.md
+    chapters:
+      - name: 19.1 嵌入式SAPI
+        path: /19.1.md
+      - name: 19.2 构建并编译一个宿主应用
+        path: /19.2.md
+      - name: 19.3 通过嵌入包装重新创建cli
+        path: /19.3.md
+      - name: 19.4 老技术新用
+        path: /19.4.md
+      - name: 19.5 小结
+        path: /19.5.md
+  - name: 20. 高级嵌入式
+    path: /20.md
+    chapters:
+      - name: 20.1 回调到php中
+        path: /20.1.md
+      - name: 20.2 错误处理
+        path: /20.2.md
+      - name: 20.3 初始化php
+        path: /20.3.md
+      - name: 20.4 覆写INI_SYSTEM和INI_PERDIR选项
+        path: /20.4.md
+      - name: 20.5 捕获输出
+        path: /20.5.md
+      - name: 20.6 同时扩展和嵌入
+        path: /20.6.md
+      - name: 20.7 小结
+        path: /20.7.md
+        
+        
+   
