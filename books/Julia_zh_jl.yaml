@@ -34,3 +34,117 @@ description: |
 official: true
 # 教程版本号
 version: 1.1
+chapters:
+  - name: 前言
+    path: /doc/src/index.md
+  - name: 手册
+    chapters:
+      - name: 入门
+        path: /zh_CN/doc/src/manual/getting-started.md
+      - name: 变量
+        path: /zh_CN/doc/src/manual/variables.md
+      - name: 整数和浮点数
+        path: /zh_CN/doc/src/manual/integers-and-floating-point-numbers.md
+      - name: 数学运算和初等函数
+        path: /zh_CN/doc/src/manual/mathematical-operations.md
+      - name: 复数和分数
+        path: /zh_CN/doc/src/manual/complex-and-rational-numbers.md
+      - name: 字符串
+        path: /zh_CN/doc/src/manual/strings.md
+      - name: 函数
+        path: /zh_CN/doc/src/manual/functions.md
+      - name: 流程控制
+        path: /zh_CN/doc/src/manual/control-flow.md
+      - name: 变量作用域
+        path: /zh_CN/doc/src/manual/variables-and-scoping.md
+      - name: 类型
+        path: /zh_CN/doc/src/manual/types.md
+      - name: 方法
+        path: /zh_CN/doc/src/manual/methods.md
+      - name: 构造函数
+        path: /zh_CN/doc/src/manual/constructors.md
+      - name: 类型转换和类型提升
+        path: /zh_CN/doc/src/manual/conversion-and-promotion.md
+      - name: 接口
+        path: /zh_CN/doc/src/manual/interfaces.md
+      - name: 模块
+        path: /zh_CN/doc/src/manual/modules.md
+      - name: 文档
+        path: /zh_CN/doc/src/manual/documentation.md
+      - name: 元编程
+        path: /zh_CN/doc/src/manual/metaprogramming.md
+      - name: 多维数组
+        path: /zh_CN/doc/src/manual/arrays.md
+      - name: 缺失值
+        path: /zh_CN/doc/src/manual/missing.md
+      - name: 网络和流
+        path: /zh_CN/doc/src/manual/networking-and-streams.md
+      - name: 并行计算
+        path: /zh_CN/doc/src/manual/parallel-computing.md
+      - name: 运行外部程序
+        path: /zh_CN/doc/src/manual/running-external-programs.md
+      - name: 调用 C 和 Fortran 代码
+        path: /zh_CN/doc/src/manual/calling-c-and-fortran-code.md
+      - name: 处理操作系统差异
+        path: /zh_CN/doc/src/manual/handling-operating-system-variation.md
+      - name: 环境变量
+        path: /zh_CN/doc/src/manual/environment-variables.md
+      - name: 嵌入Julia
+        path: /zh_CN/doc/src/manual/embedding.md
+      - name: 代码加载
+        path: /zh_CN/doc/src/manual/code-loading.md
+      - name: 性能分析
+        path: /zh_CN/doc/src/manual/profile.md
+      - name: 栈跟踪
+        path: /zh_CN/doc/src/manual/stacktraces.md
+      - name: 性能建议
+        path: /zh_CN/doc/src/manual/performance-tips.md
+      - name: 工作流程建议
+        path: /zh_CN/doc/src/manual/workflow-tips.md
+      - name: 代码风格指南
+        path: /zh_CN/doc/src/manual/style-guide.md
+      - name: 常见问题
+        path: /zh_CN/doc/src/manual/faq.md
+      - name: 与其他语言的显著差异
+        path: /zh_CN/doc/src/manual/noteworthy-differences.md
+      - name: Unicode 输入表
+        path: /zh_CN/doc/src/manual/unicode-input.md
+  - name: Base
+    chapters:
+      - name: 基本功能 
+        path: /zh_CN/doc/src/base/base.md
+      - name: 集合和数据结构
+        path: /zh_CN/doc/src/base/collections.md
+      - name: 数学相关
+        path: /zh_CN/doc/src/base/math.md
+      - name: Numbers
+        path: /zh_CN/doc/src/base/numbers.md
+      - name: 字符串
+        path: /zh_CN/doc/src/base/strings.md
+      - name: Arrays
+        path: /zh_CN/doc/src/base/arrays.md
+      - name: Tasks
+        path: /zh_CN/doc/src/base/parallel.md       
+      - name: 多线程
+        path: /zh_CN/doc/src/base/multi-threading.md
+      - name: 常量
+        path: /zh_CN/doc/src/base/constants.md
+      - name: 文件系统
+        path: /zh_CN/doc/src/base/file.md
+      - name: I/O 与网络
+        path: /zh_CN/doc/src/base/io-network.md
+      - name: 标点符号
+        path: /zh_CN/doc/src/base/punctuation.md
+      - name: 排序及相关函数
+        path: /zh_CN/doc/src/base/sort.md
+      - name: 迭代相关
+        path: /zh_CN/doc/src/base/iterators.md
+      - name: C 接口
+        path: /zh_CN/doc/src/base/c.md
+      - name: C 标准库
+        path: /zh_CN/doc/src/base/libc.md
+      - name: StackTraces
+        path: /zh_CN/doc/src/base/stacktraces.md
+      - name: SIMD 支持
+        path: /zh_CN/doc/src/base/simd-types.md
+       
