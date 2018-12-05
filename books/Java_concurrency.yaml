@@ -33,3 +33,82 @@ description: |
 official: false
 # 教程版本号
 version: 1.1
+chapters:
+  - name: 前言
+    path: /README.md
+  - name: 1. 基础知识
+    chapters:
+      - name: 1.1 并发编程的优缺点
+        path: /01.并发编程的优缺点/并发编程的优缺点.md
+      - name: 1.2 线程的状态和基本操作
+        path: /02.线程的状态转换以及基本操作/线程状态转换以及基本操作.md
+  - name: 2. 并发理论（JMM）
+    chapters:
+      - name: 2.1 java内存模型以及happens-before规则
+        path: /03.java内存模型以及happens-before规则/Java内存模型以及happens-before.md
+  - name: 3. 并发关键字
+    chapters:
+      - name: 3.1 让你彻底理解Synchronized
+        path: /04.彻底理解synchronized/java关键字---synchronized.md
+      - name: 3.2 让你彻底理解volatile
+        path: /05.彻底理解volatile/java关键字---volatile.md
+      - name: 3.3 你以为你真的了解final吗？
+        path: /06.你以为你真的了解final吗？/java关键字--final.md
+      - name: 3.4 三大性质总结：原子性，有序性，可见性
+        path: /07.三大性质总结：原子性、可见性以及有序性/三大性质总结：原子性、可见性以及有序性.md
+  - name: 4. Lock体系
+    chapters:
+      - name: 4.1 初识Lock与AbstractQueuedSynchronizer(AQS)
+        path: /08.初识Lock与AbstractQueuedSynchronizer(AQS)/初识Lock与AbstractQueuedSynchronizer(AQS).md
+      - name: 4.2 深入理解AbstractQueuedSynchronizer(AQS)
+        path: /09.深入理解AbstractQueuedSynchronizer(AQS)/深入理解AbstractQueuedSynchronizer(AQS).md
+      - name: 4.3 再一次理解ReentrantLock
+        path: /10.彻底理解ReentrantLock/彻底理解ReentrantLock.md
+      - name: 4.4 深入理解读写锁ReentrantReadWriteLock
+        path: /11.深入理解读写锁ReentrantReadWriteLock/深入理解读写锁ReentrantReadWriteLock.md
+      - name: 4.5 详解Condition的await和signal等待/通知机制
+        path: /12.详解Condition的await和signal等待通知机制/详解Condition的await和signal等待通知机制.md
+      - name: 4.6 LockSupport工具
+        path: /13.LockSupport工具/LockSupport工具.md
+  - name: 5. 并发容器
+    chapters:
+      - name: 5.1 并发容器之ConcurrentHashMap(JDK 1.8版本)
+        path: /14.并发容器之ConcurrentHashMap(JDK 1.8版本)/并发容器之ConcurrentHashMap(JDK 1.8版本).md
+      - name: 5.2 并发容器之CopyOnWriteArrayList
+        path: /16.并发容器之CopyOnWriteArrayList/并发容器之CopyOnWriteArrayList.md
+      - name: 5.3并发容器之ConcurrentLinkedQueue
+        path: /15.并发容器之ConcurrentLinkedQueue/并发容器之ConcurrentLinkedQueue.md
+      - name: 5.4 并发容器之ThreadLocal
+        path: /17.并发容器之ThreadLocal/并发容器之ThreadLocal.md
+      - name: 5.5 一篇文章，从源码深入详解ThreadLocal内存泄漏问题
+        path: /18.一篇文章，从源码深入详解ThreadLocal内存泄漏问题/一篇文章，从源码深入详解ThreadLocal内存泄漏问题.md
+      - name: 5.6 并发容器之BlockingQueue
+        path: /19.并发容器之BlockingQueue/并发容器之BlockingQueue.md
+      - name: 5.7 并发容器之ArrayBlockingQueue和LinkedBlockingQueue实现原理详解
+        path: /20.并发容器之ArrayBlockingQueue和LinkedBlockingQueue实现原理详解/并发容器之ArrayBlockingQueue和LinkedBlockingQueue实现原理详解.md
+  - name: 6. 线程池（Executor体系）
+    chapters:
+      - name: 6.1 线程池实现原理
+        path: /21.线程池ThreadPoolExecutor实现原理/线程池ThreadPoolExecutor实现原理.md
+      - name: 6.2 线程池之ScheduledThreadPoolExecutor
+        path: /22.线程池之ScheduledThreadPoolExecutor/线程池之ScheduledThreadPoolExecutor.md
+      - name: 6.3 FutureTask基本操作总结
+        path: /23.FutureTask基本操作总结/FutureTask基本操作总结.md
+  - name: 7. 原子操作类
+    chapters:
+      - name: 7.1 Java中atomic包中的原子操作类总结
+        path: /24.Java中atomic包中的原子操作类总结/Java中atomic包中的原子操作类总结.md
+  - name: 8. 并发工具
+    chapters:
+      - name: 8.1 大白话说java并发工具类-CountDownLatch，CyclicBarrier
+        path: /25.大白话说java并发工具类-CountDownLatch，CyclicBarrier/大白话说java并发工具类-CountDownLatch，CyclicBarrier.md
+      - name: 8.2 大白话说java并发工具类-Semaphore，Exchanger
+        path: /26.大白话说java并发工具类-Semaphore，Exchanger/大白话说java并发工具类-Semaphore，Exchanger.md
+  - name: 9. 并发实践
+    chapter:
+      - name: 9.1 一篇文章，让你彻底弄懂生产者--消费者问题
+        path: /27.一篇文章，让你彻底弄懂生产者--消费者问题/一篇文章，让你彻底弄懂生产者--消费者问题.md
+
+
+      
+      
