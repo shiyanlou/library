@@ -32,3 +32,78 @@ description: |
 official: false
 # 教程版本号
 version: 1.0
+chapters:
+  - name: 1. 引言
+    path: /book/chap01.md
+  - name: 2. 什么是shell
+    path: /book/chap02.md
+  - name: 3. 文件系统中跳转
+    path: /book/chap03.md
+  - name: 4. 研究操作系统
+    path: /book/chap04.md
+  - name: 5. 操作文件和目录
+    path: /book/chap05.md
+  - name: 6. 使用命令
+    path: /book/chap06.md 
+  - name: 7. 重定向
+    path: /book/chap07.md
+  - name: 8. 从shell眼中看世界
+    path: /book/chap08.md
+  - name: 9. 键盘高级操作技巧
+    path: /book/chap09.md    
+  - name: 10. 权限
+    path: /book/chap10.md    
+  - name: 11. 进程
+    path: /book/chap11.md    
+  - name: 12. shell环境
+    path: /book/chap12.md    
+  - name: 13. VI简介
+    path: /book/chap13.md 
+  - name: 14. 自定制shell提示符
+    path: /book/chap14.md 
+  - name: 15. 软件包管理
+    path: /book/chap15.md  
+  - name: 16. 存储媒介
+    path: /book/chap16.md  
+  - name: 17. 网络系统
+    path: /book/chap17.md
+  - name: 18. 查找文件
+    path: /book/chap18.md    
+  - name: 19. 归档和备份
+    path: /book/chap19.md    
+  - name: 20. 正则表达式
+    path: /book/chap20.md    
+  - name: 21. 文本处理
+    path: /book/chap21.md    
+  - name: 22. 格式化输出
+    path: /book/chap22.md 
+  - name: 23. 打印
+    path: /book/chap23.md 
+  - name: 24. 编译程序
+    path: /book/chap24.md  
+  - name: 25. 编写第一个shell脚本
+    path: /book/chap25.md
+  - name: 26. 启动一个项目
+    path: /book/chap26.md  
+  - name: 27. 自顶向下设计
+    path: /book/chap27.md  
+  - name: 28. 流程控制 if分支结构
+    path: /book/chap28.md
+  - name: 29. 读取键盘输入
+    path: /book/chap29.md    
+  - name: 30. 流程控制 while/until 循环
+    path: /book/chap30.md    
+  - name: 31. 疑难排解
+    path: /book/chap31.md    
+  - name: 32. 流程控制 case分支
+    path: /book/chap32.md    
+  - name: 33. 位置参数
+    path: /book/chap33.md 
+  - name: 34. 流程控制 for循环
+    path: /book/chap34.md 
+  - name: 35. 字符串和数字
+    path: /book/chap35.md  
+  - name: 36. 数组
+    path: /book/chap36.md
+  - name: 37. 奇珍异宝
+    path: /book/chap37.md  
