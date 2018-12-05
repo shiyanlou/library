@@ -32,3 +32,103 @@ description: |
 official: true
 # 教程版本号
 version: 1.0
+chapters:
+  - name: 主页
+    path: /README.md
+  - name: 1. keras新手指南 
+    chapters:
+      - name: 1.1 一些基本概念
+        path: /docs/for_beginners/concepts.md
+      - name: 1.2 常见问题与解答
+        path: /docs/for_beginners/FAQ.md      
+      - name: 1.3 Keras安装和配置指南(Linux)
+        path: /docs/for_beginners/keras_linux.md   
+      - name: 1.4 Keras安装和配置指南(Windows)
+        path: /docs/for_beginners/keras_windows.md
+      - name: 1.5 Keras使用陷阱
+        path: /docs/for_beginners/trap.md 
+  - name: 2. 快速开始
+    chapters:
+      - name: 2.1 序贯模型
+        path: /docs/getting_started/sequential_model.md
+      - name: 2.2 函数式模型
+        path: /docs/getting_started/functional_API.md
+  - name: 3. 模型
+    chapters:
+      - name: 3.1 关于Keras模型
+        path: /docs/models/about_model.md
+      - name: 3.2 序贯模型API
+        path: /docs/models/sequential.md
+      - name: 3.3 函数式模型API
+        path: /docs/models/model.md
+  - name: 4. 网络层
+    chapters:
+      - name: 4.1 关于Keras层
+        path: /docs/layers/about_layer.md
+      - name: 4.2 常用层Core
+        path: /docs/layers/core_layer.md
+      - name: 4.3 卷积层Convolutional
+        path: /docs/layers/convolutional_layer.md
+      - name: 4.4 池化层Pooling
+        path: /docs/layers/pooling_layer.md
+      - name: 4.5 局部连接层Locally-connented
+        path: /docs/layers/locally_connected_layer.md 
+      - name: 4.6 循环层Recurrent
+        path: /docs/layers/recurrent_layer.md
+      - name: 4.7 嵌入层Embedding
+        path: /docs/layers/embedding_layer.md
+      - name: 4.8 融合层Merge
+        path: /docs/layers/merge.md
+      - name: 4.9 高级激活层Advanced Activation
+        path: /docs/layers/advanced_activation_layer.md
+      - name: 4.10 规范层BatchNormalization
+        path: /docs/layers/normalization_layer.md
+      - name: 4.11 噪声层Noise
+        path: /docs/layers/noise_layer.md
+      - name: 4.12 包装器Wrapper
+        path: /docs/layers/wrapper.md 
+      - name: 4.13 编写自己的层
+        path: /docs/layers/writting_layer.md 
+  - name: 5. 数据预处理
+    chapters:
+      - name: 5.1 序列预处理
+        path: /docs/preprocessing/sequence.md
+      - name: 5.2 文本预处理
+        path: /docs/preprocessing/text.md
+      - name: 5.3 图片预处理
+        path: /docs/preprocessing/image.md 
+  - name: 6. 网络配置
+    chapters:
+      - name: 6.1 损失函数loss
+        path: /docs/other/objectives.md
+      - name: 6.2 优化器Optimizer
+        path: /docs/other/optimizers.md
+      - name: 6.3 激活函数Activation
+        path: /docs/other/activations.md
+      - name: 6.4 性能评估Metrices
+        path: /docs/other/metrics.md
+      - name: 6.5 初始化方法Initializers
+        path: /docs/other/initializations.md
+      - name: 6.6 正则项Regularizer
+        path: /docs/other/regularizers.md
+      - name: 6.7 约束项Constraint
+        path: /docs/other/constraints.md 
+      - name: 6.8 回调函数Callback
+        path: /docs/other/callbacks.md
+  - name: 7. 协助使用Keras
+    chapters:
+      - name: 7.1 预训练模型Application
+        path: /docs/other/application.md
+      - name: 7.2 常用数据库Dataset
+        path: /docs/other/datasets.md
+      - name: 7.3 可视化visualization
+        path: /docs/other/visualization.md
+      - name: 7.4 工具
+        path: /docs/utils.md
+  - name: 8. keras后端Backend
+    path: /docs/backend.md
+  - name: 9. scikit-learn接口
+    path: /docs/scikit-learn_API.md
+  - name: 10. 致谢
+    path: /docs/acknowledgement.md
+        
