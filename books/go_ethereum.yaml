@@ -28,7 +28,7 @@ description: |
 # 配置教程是否该领域官方教程
 official: false
 # 教程版本号
-version: 1.0
+version: 1.1
 chapters:
   - name: 什么是以太坊
     path: /0.1什么是以太坊.md
