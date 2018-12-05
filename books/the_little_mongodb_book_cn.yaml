@@ -30,3 +30,6 @@ description: |
 official: false
 # 教程版本号
 version: 1.0
+chapters:
+  - name: MongoDB小书
+    path: /mongodb.md
