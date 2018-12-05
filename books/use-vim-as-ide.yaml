@@ -30,3 +30,6 @@ description: |
 official: false
 # 教程版本号
 version: 1.1
+chapters:
+  - name: 像 IDE 一样使用 vim
+    path: /README.md
