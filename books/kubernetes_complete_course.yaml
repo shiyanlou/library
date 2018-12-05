@@ -38,3 +38,28 @@ description: |
 official: false
 # 教程版本号
 version: 1.0
+chapters:
+  - name: 0. Docker 以及 Docker 网络
+    path: /chapter-0-docker-and-network.md
+  - name: 1. Kubernetes 架构概述
+    path: /chapter-1-kubernetes-architecture.md
+  - name: 2. Kubernetes 安装和运维
+    path: /chapter-2-kubernetes-install.md
+  - name: 3. Kubernetes 网络与存储
+    path: /chapter-3-kubernetes-network-and-storage.md
+  - name: 4. Kubernetes 的 API Spec 以及安全机制
+    path: /chapter-4-kubernetes-api-and-security.md
+  - name: 5. Kubernetes 的 Pod 放置放置策略以及应用案例
+    path: /chapter-5-kubernetes-pod-allocation-and-application-example.md
+  - name: 6. Kubernetes 的监控日志以及故障排查
+    path: chapter-6-kubernetes-log-and-troubleshoot.md
+  - name: 7. Kubernetes 的扩展开发概述
+    path: /chapter-7-kubernetes-extension-develop.md
+  - name: 8. Kubernetes & MicroService
+    path: /k8s-microservice.md
+  - name: 9. 个人介绍
+    path: /kubernetes-architecture-for-keuc.md
+
+
+
+
