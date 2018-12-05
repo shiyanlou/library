@@ -30,3 +30,71 @@ description: |
 official: false
 # 教程版本号
 version: 1.0
+chapters:
+  - name: 前言
+    path: /README.md
+  - name: 1. 开发环境搭建
+    chapters:
+      - name: 1.1 Node.js 的安装与使用
+        path: /book/1.1 Node.js 的安装与使用.md
+      - name: 1.2 MongoDB 的安装与使用
+        path: /book/1.2 MongoDB 的安装与使用.md
+  - name: 2. Node.js 知识点讲解
+    chapters:
+      - name: 2.1 require
+        path: /book/2.1 require.md
+      - name: 2.2 exports 和 module.exports
+        path: /book/2.2 exports 和 module.exports.md     
+      - name: 2.3 Promise
+        path: /book/2.3 Promise.md
+      - name: 2.4 环境变量
+        path: /book/2.4 环境变量.md
+      - name: 2.5 package.json
+        path: /book/2.5 package.json.md
+      - name: 2.6 npm 使用注意事项
+        path: /book/2.6 npm 使用注意事项.md
+  - name: 3. Hello, Express 
+    chapters:
+      - name: 3.1 初始化一个 Express 项目
+        path: /book/3.1 初始化一个 Express 项目.md
+      - name: 3.2 路由
+        path: /book/3.2 路由.md 
+      - name: 3.3 模板引擎
+        path: /book/3.3 模板引擎.md
+      - name: 3.4 Express 浅析
+        path: /book/3.4 Express 浅析.md
+  - name: 4. 一个简单的博客 
+    chapters:
+      - name: 4.1 开发环境
+        path: /book/4.1 开发环境.md
+      - name: 4.2 准备工作
+        path: /book/4.2 准备工作.md
+      - name: 4.3 配置文件
+        path: /book/4.3 配置文件.md
+      - name: 4.4 功能设计
+        path: /book/4.4 功能设计.md
+       - name: 4.5 页面设计
+        path: /book/4.5 页面设计.md
+       - name: 4.6 连接数据库
+        path: /book/4.6 连接数据库.md
+       - name: 4.7 注册
+        path: /book/4.7 注册.md
+       - name: 4.8 登出与登录
+        path: /book/4.8 登出与登录.md
+       - name: 4.9 文章
+        path: /book/4.9 文章.md
+       - name: 4.10 留言
+        path: /book/4.10 留言.md
+       - name: 4.11 404 页面
+        path: /book/4.11 404 页面.md
+       - name: 4.12 错误页面
+        path: /book/4.12 错误页面.md
+       - name: 4.13 日志
+        path: /book/4.13 日志.md
+       - name: 4.14 测试
+        path: /book/4.14 测试.md
+       - name: 4.15 部署
+        path: /book/4.15 部署.md
+
+
+
