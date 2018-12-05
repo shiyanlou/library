@@ -135,3 +135,69 @@ chapters:
         path: /py_tutorials/py_feature2d/py_matcher/py_matcher_cn.markdown
       - name: 5.10 特征匹配和使用单应性匹配来搜索物体
         path: /py_tutorials/py_feature2d/py_feature_homography/py_feature_homography_cn.markdown
+  - name: 6. 视频分析
+    path: /py_tutorials/py_video/py_table_of_contents_video_cn.markdown
+    chapters:
+      - name: 6.1 Meanshift和Camshift 
+        path: /py_tutorials/py_video/py_meanshift/py_meanshift_cn.markdown
+      - name: 6.2 光流
+        path: /py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade_cn.markdown
+      - name: 6.3 背景分割
+        path: /py_tutorials/py_video/py_bg_subtraction/py_bg_subtraction_cn.markdown
+  - name: 7. 相机校准和3D重建
+    path: /py_tutorials/py_calib3d/py_table_of_contents_calib3d_cn.markdown
+    chapters:
+      - name: 7.1 相机校准
+        path: /py_tutorials/py_calib3d/py_calibration/py_calibration_cn.markdown
+      - name: 7.2 姿势估计
+        path: /py_tutorials/py_calib3d/py_pose/py_pose_cn.markdown
+      - name: 7.3 极线几何
+        path: /py_tutorials/py_calib3d/py_epipolar_geometry/py_epipolar_geometry_cn.markdown
+      - name: 7.4 来自立体图像的深度图
+        path: /py_tutorials/py_calib3d/py_depthmap/py_depthmap_cn.markdown
+  - name: 8. 机器学习
+    path: /py_tutorials/py_ml/py_table_of_contents_ml_cn.markdown
+    chapters:
+      - name: 8.1 K-最近邻算法
+        path: /py_tutorials/py_ml/py_knn/py_knn_index_cn.markdown
+        chapters:
+          - name: 8.1.1 了解k-最近邻算法
+            path: /py_tutorials/py_ml/py_knn/py_knn_understanding/py_knn_understanding_cn.markdown
+          - name: 8.1.2 使用kNN进行手写字符的OCR
+            path: /py_tutorials/py_ml/py_knn/py_knn_opencv/py_knn_opencv_cn.markdown
+      - name: 8.2 支持向量机（SVM）
+        path: /py_tutorials/py_ml/py_svm/py_svm_index_cn.markdown
+        chapters:
+          - name: 8.2.1 理解SVM
+            path: /py_tutorials/py_ml/py_svm/py_svm_basics/py_svm_basics_cn.markdown
+          - name: 8.2.2 使用SVM的手写数据的OCR
+            path: /py_tutorials/py_ml/py_svm/py_svm_opencv/py_svm_opencv_cn.markdown
+      - name: 8.3 K-Means聚类
+        path: /py_tutorials/py_ml/py_kmeans/py_kmeans_index_cn.markdown
+        chapters:
+          - name: 8.3.1 理解K-Means聚类
+            path: /py_tutorials/py_ml/py_kmeans/py_kmeans_understanding/py_kmeans_understanding_cn.markdown
+          - name: 8.3.2 OpenCV中的K-Means聚类
+            path: /py_tutorials/py_ml/py_kmeans/py_kmeans_opencv/py_kmeans_opencv_cn.markdown
+  - name: 9. 计算摄影学
+    path: /py_tutorials/py_photo/py_table_of_contents_photo_cn.markdown
+    chapters:
+      - name: 9.1 图像去噪
+        path: /py_tutorials/py_photo/py_non_local_means/py_non_local_means_cn.markdown
+      - name: 9.2 图像修复
+        path: /py_tutorials/py_photo/py_inpainting/py_inpainting_cn.markdown
+      - name: 9.3 高动态范围（HDR）
+        path: /py_tutorials/py_photo/py_hdr/py_hdr_cn.markdown
+  - name: 10. 目标检测
+    path: /py_tutorials/py_objdetect/py_table_of_contents_objdetect_cn.markdown
+    chapters:
+      - name: 10.1 使用 Haar Cascades 的面部识别
+        path: /py_tutorials/py_objdetect/py_face_detection/py_face_detection_cn.markdown
+  - name: 11. OpenCV-Python 绑定
+    path: /py_tutorials/py_bindings/py_table_of_contents_bindings_cn.markdown
+    chapters:
+      - name: 11.1 OpenCV-Python绑定如何工作？ 
+        path: /py_tutorials/py_bindings/py_bindings_basics/py_bindings_basics_cn.markdown
+
+
+  
