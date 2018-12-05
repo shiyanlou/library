@@ -214,7 +214,7 @@ chapters:
         path: /16.1.md
       - name: 16.2 流的过滤器
         path: /16.2.md
-      - name 16.3 小结
+      - name: 16.3 小结
         path: /16.3.md
   - name: 17. 配置和链接
     path: /17.md
