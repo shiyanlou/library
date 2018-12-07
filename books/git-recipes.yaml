@@ -1,0 +1,70 @@
+# geeeeeeeeek/git-recipes配置
+---
+# 技术教程名称应总是唯一的
+name: git菜单  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: git-recipes
+topic: 其他技术
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - git
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: geeeeeeeeek/git-recipes
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: geeeeeeeeek
+  email: 
+  # github 主页地址
+  github: github.com/geeeeeeeeek
+  blog: github.com/geeeeeeeeek
+# 描述信息
+description: |
+  高质量的 Git 中文教程，源于国外社区的优秀文章和个人实践
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.1
+chapters:
+  - name: 前言
+    path: /README.md
+  - name: 1. 什么是 Git
+    path: /sources/1-果壳中的Git.md
+  - name: 2. Git简易指南
+    path: /sources/2.1-Git简易指南(上).md
+  - name: 3. 创建代码仓库
+    path: /sources/2.2-创建代码仓库.md
+  - name: 4. 保存你的更改
+    path: /sources/2.3-保存你的更改.md
+  - name: 5. 查看仓库状态
+    path: /sources/2.4-查看仓库状态.md
+  - name: 6. 检出以前的提交
+    path: /sources/2.5-检出以前的提交.md
+  - name: 7. 回滚错误的修改
+    path: /sources/2.6-回滚错误的修改.md
+  - name: 8. 重写项目历史
+    path: /sources/2.7-重写项目历史.md
+  - name: 9. 保持代码同步
+    path: /sources/3.2-保持代码同步.md
+  - name: 10. 创建PullRequest
+    path: /sources/3.3-创建PullRequest.md
+  - name: 11. 使用分支
+    path: /sources/3.4-使用分支.md
+  - name: 12. 常见工作流比较
+    path: /sources/3.5-常见工作流比较.md
+  - name: 13. Git图解
+    path: /sources/4-Git图解.md
+  - name: 14. 代码合并Merge还是Rebase
+    path: /sources/5.1-代码合并Merge还是Rebase.md
+  - name: 15. 回滚命令Reset、Checkout、Revert辨析
+    path: /sources/5.2-回滚命令Reset、Checkout、Revert辨析.md
+  - name: 16. Git_log高级用法
+    path: /sources/5.3-Git_log高级用法.md
+  - name: 17. Git钩子
+    path: /sources/5.4-Git钩子.md
+  - name: 18. Git提交引用
+    path: /sources/5.5-Git提交引用.md
