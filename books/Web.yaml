@@ -1,0 +1,410 @@
+# smyhvae/Web配置
+---
+# 技术教程名称应总是唯一的
+name: 前端入门和进阶学习笔记  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: Web
+topic: Web前端
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Web
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: smyhvae/Web
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: smyhvae
+  email: 
+  # github 主页地址
+  github: github.com/smyhvae
+  blog: github.com/smyhvae
+# 描述信息
+description: |
+  前端入门和进阶学习笔记，超详细的前端学习图文教程。从零开始学前端，做一个web全栈工程师。持续更新... 
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.1
+chapters:
+  - name: 前言
+    path: /README.md
+  - name: 0. 前端工具
+    chapters:
+      - name: 0.1 Git的使用
+        path: /00-前端工具/01-Git的使用.md
+      - name: 0.2 第一次使用VS Code时你应该知道的一切配置
+        path: /00-前端工具/02-第一次使用VS Code时你应该知道的一切配置.md
+      - name: 0.3 VS Code的使用积累
+        path: /00-前端工具/03-VS Code的使用积累.md
+      - name: 0.4 Sublime Text在前端中的使用
+        path: /00-前端工具/04-Sublime Text在前端中的使用.md
+      - name: 0.5 WebStorm的使用
+        path: /00-前端工具/04-WebStorm的使用.md
+      - name: 0.6 Atom在前端的使用
+        path: /00-前端工具/05-Atom在前端的使用.md
+      - name: 0.7 chrome浏览器
+        path: /00-前端工具/chrome浏览器.md
+      - name: 0.8 iTerm2 + OhMyZsh + agnoster 搭建
+        path: /00-前端工具/iTerm2 + OhMyZsh + agnoster 搭建.md
+      - name: 0.9 iconMoon
+        path: /00-前端工具/iconMoon.md
+      - name: 0.10 whistle网络抓包
+        path: /00-前端工具/whistle网络抓包.md
+  - name: 1. html
+    chapters:
+      - name: 1.1 html标签图文详解（一）
+        path: /01-html/01-html标签图文详解（一）.md
+      - name: 1.2 html标签图文详解（二）
+        path: /01-html/02-html标签图文详解（二）.md
+  - name: 2. CSS
+    chapters:
+      - name: 2.1 CSS属性：字体属性和文本属性
+        path: /02-CSS/01-CSS属性：字体属性和文本属性.md
+      - name: 2.2 CSS属性：背景属性
+        path: /02-CSS/02-CSS属性：背景属性.md
+      - name: 2.3 CSS样式表和选择器
+        path: /02-CSS/03-CSS样式表和选择器.md
+      - name: 2.4 CSS选择器：伪类
+        path: /02-CSS/04-CSS选择器：伪类.md
+      - name: 2.5 CSS样式表的继承性和层叠性
+        path: /02-CSS/05-CSS样式表的继承性和层叠性.md
+      - name: 2.6 CSS盒模型详解
+        path: /02-CSS/06-CSS盒模型详解.md
+      - name: 2.7 浮动
+        path: /02-CSS/07-浮动.md
+      - name: 2.8 CSS属性：定位属性
+        path: /02-CSS/08-CSS属性：定位属性.md
+      - name: 2.9 CSS案例讲解：博雅互动
+        path: /02-CSS/09-CSS案例讲解：博雅互动.md
+      - name: 2.10 CSS的一些小知识
+        path: /02-CSS/10-CSS的一些小知识.md
+      - name: 2.11 浏览器的兼容性问题
+        path: /02-CSS/浏览器的兼容性问题.md
+      - name: 2.12 Sass入门
+        path: /02-CSS进阶/Sass入门.md
+  - name: 3. JavaScript
+    chapters:
+      - name: 3.1 JS简介
+        path: /03-JavaScript基础/01-JavaScript语法基础：JS简介.md
+      - name: 3.2 变量
+        path: /03-JavaScript基础/02-JavaScript语法基础：变量.md
+      - name: 3.3 运算符和表达式
+        path: /03-JavaScript基础/03-JavaScript语法基础：运算符和表达式.md
+      - name: 3.4 循环控制（if语句&for循环）
+        path: /03-JavaScript基础/04-JavaScript语法基础：循环控制（if语句&for循环）.md
+      - name: 3.5 函数
+        path: /03-JavaScript基础/05-函数.md
+      - name: 3.6 对象简介
+        path: /03-JavaScript基础/05-对象简介.md
+      - name: 3.7 对象、作用域和this
+        path: /03-JavaScript基础/06-对象、作用域和this.md
+      - name: 3.8 对象的创建、构造函数和原型
+        path: /03-JavaScript基础/07-对象的创建、构造函数和原型.md
+      - name: 3.9 数组
+        path: /03-JavaScript基础/08-数组.md
+      - name: 3.10 内置对象
+        path: /03-JavaScript基础/09-内置对象.md
+      - name: 3.11 DOM操作
+        path: /03-JavaScript基础/10-DOM操作.md
+      - name: 3.12 事件对象Event和冒泡
+        path: /03-JavaScript基础/12-事件对象Event和冒泡.md
+      - name: 3.13 BOM的常见内置方法和内置对象
+        path: /03-JavaScript基础/13-BOM的常见内置方法和内置对象.md
+      - name: 3.14 原型链
+        path: /03-JavaScript基础/14-原型链.md
+      - name: 3.15 常见代码解读
+        path: /03-JavaScript基础/21-常见代码解读.md
+      - name: 3.16 作用域和闭包
+        path: /03-JavaScript进阶/06-作用域和闭包.md
+      - name: 3.17 call、apply、bind的区别
+        path: /03-JavaScript进阶/07-call、apply、bind的区别.md
+      - name: 3.18 this
+        path: /03-JavaScript进阶/this.md
+      - name: 3.19 创建对象和继承
+        path: /03-JavaScript进阶/创建对象和继承.md
+      - name: 3.20 浅拷贝和深拷贝
+        path: /03-JavaScript进阶/浅拷贝和深拷贝.md
+  - name: 4. 前端基本功
+    chapters:
+      - name: 4.1 CSS基础练习：JD首页的制作（顶部和底部）
+        path: /04-前端基本功：CSS和DOM练习/01-CSS基础练习：JD首页的制作（顶部和底部）.md
+      - name: 4.2 CSS基础练习：JD首页的制作（快捷导航部分）
+        path: /04-前端基本功：CSS和DOM练习/02-CSS基础练习：JD首页的制作（快捷导航部分）.md
+      - name: 4.3 DOM操作练习：基础练习
+        path: /04-前端基本功：CSS和DOM练习/03-DOM操作练习：基础练习.md
+      - name: 4.4 DOM操作练习：Tab栏切换（通过className设置样式）
+        path: /04-前端基本功：CSS和DOM练习/04-DOM操作练习：Tab栏切换（通过className设置样式）.md
+      - name: 4.5 DOM操作练习：访问关系的封装
+        path: /04-前端基本功：CSS和DOM练习/05-DOM操作练习：访问关系的封装.md
+      - name: 4.6 DOM操作练习：通过style对象设置样式
+        path: /04-前端基本功：CSS和DOM练习/06-DOM操作练习：通过style对象设置样式.md
+      - name: 4.7 DOM操作练习：innerHTML的方式创建元素
+        path: /04-前端基本功：CSS和DOM练习/07-DOM操作练习：innerHTML的方式创建元素.md
+      - name: 4.8 JavaScript基础：定时器
+        path: /04-前端基本功：CSS和DOM练习/08-JavaScript基础：定时器.md
+      - name: 4.9 offset家族和匀速动画(含轮播图的实现)
+        path: /04-前端基本功：JavaScript特效/01-offset家族和匀速动画(含轮播图的实现).md
+      - name: 4.10 scroll家族和缓动动画
+        path: /04-前端基本功：JavaScript特效/02-scroll家族和缓动动画.md
+      - name: 4.11 client家族(可视区)
+        path: /04-前端基本功：JavaScript特效/03-client家族(可视区).md
+      - name: 4.12 JS的小知识
+        path: /04-前端基本功：JavaScript特效/04-JS的小知识.md
+  - name: 5. jQuery
+    chapters:
+      - name: 5.1 jQuery的介绍和选择器
+        path: /05-jQuery/01-jQuery的介绍和选择器.md
+      - name: 5.2 jQuery动画详解
+        path: /05-jQuery/02-jQuery动画详解.md
+      - name: 5.3 jQuery操作DOM
+        path: /05-jQuery/03-jQuery操作DOM.md
+      - name: 5.4 jQuery的事件机制和其他知识
+        path: /05-jQuery/04-jQuery的事件机制和其他知识.md
+      - name: 5.5 Zepto入门
+        path: /05-jQuery/11-Zepto入门.md
+  - name: 6. HTML5和CSS3
+    chapters:
+      - name: 6.1 HTML5详解
+        path: /06-HTML5和CSS3/01-HTML5详解.md
+      - name: 6.2 CSS3的常见边框汇总
+        path: /06-HTML5和CSS3/CSS3的常见边框汇总.md
+      - name: 6.3 CSS3选择器详解
+        path: /06-HTML5和CSS3/03-CSS3选择器详解.md
+      - name: 6.4 CSS3属性详解（一）
+        path: /06-HTML5和CSS3/04-CSS3属性详解（一）.md
+      - name: 6.5 CSS3属性详解：动画详解
+        path: /06-HTML5和CSS3/05-CSS3属性详解：动画详解.md
+      - name: 6.6 CSS3属性详解：flex布局
+        path: /06-HTML5和CSS3/06-CSS3属性详解：flex布局.md
+      - name: 6.7 CSS3属性详解：Web字体
+        path: /06-HTML5和CSS3/07-CSS3属性详解：Web字体.md
+      - name: 6.8 HTML5举例：简单的视频播放器
+        path: /06-HTML5和CSS3/08-HTML5举例：简单的视频播放器.md
+      - name: 6.9 HTML5详解（二）
+        path: /06-HTML5和CSS3/09-HTML5详解（二）.md
+      - name: 6.10 HTML5详解（三）
+        path: /06-HTML5和CSS3/10-HTML5详解（三）.md
+  - name: 7. 移动web开发
+    chapters:
+      - name: 7.1 Bootstrap入门
+        path: /07-移动web开发/01-Bootstrap入门.md
+      - name: 7.2 Less详解
+        path: /07-移动web开发/03-Less详解.md
+  - name: 8. Ajax
+    chapters:
+      - name: 8.1 服务器分类及PHP入门
+        path: /08-Ajax/01-服务器分类及PHP入门.md
+      - name: 8.2 Ajax入门和发送http请求
+        path: /08-Ajax/02-Ajax入门和发送http请求.md
+      - name: 8.3 函数封装：Ajax发送http请求（get&post）
+        path: /08-Ajax/03-函数封装：Ajax发送http请求（get&post）.md
+      - name: 8.4 同源和跨域
+        path: /08-Ajax/04-同源和跨域.md
+      - name: 8.5 模板引擎
+        path: /08-Ajax/05-模板引擎.md
+  - name: 9. Node.js和模块化
+    chapters:
+      - name: 9.1 事件驱动和非阻塞机制
+        path: /09-Node.js和模块化/00-事件驱动和非阻塞机制.md
+      - name: 9.2 Node.js入门
+        path: /09-Node.js和模块化/01-Node.js入门.md
+      - name: 9.3 JavaScript模块化01：CommonJS
+        path: /09-Node.js和模块化/02-JavaScript模块化01：CommonJS.md
+      - name: 9.4 JavaScript模块化02：AMD
+        path: /09-Node.js和模块化/02-JavaScript模块化02：AMD.md
+      - name: 9.5 JavaScript模块化03：CMD
+        path: /09-Node.js和模块化/02-JavaScript模块化03：CMD.md
+      - name: 9.6 JavaScript模块化04：ES6
+        path: /09-Node.js和模块化/02-JavaScript模块化04：ES6.md
+      - name: 9.7 CommonJS
+        path: /09-Node.js和模块化/CommonJS.md
+      - name: 9.8 ES6
+        path: /09-Node.js和模块化/ES6.md
+      - name: 9.9 Node.js代码举例
+        path: /09-Node.js和模块化/Node.js代码举例.md
+      - name: 9.10 WebSocket
+        path: /09-Node.js和模块化/WebSocket.md
+  - name: 10. ES6
+    chapters:
+      - name: 10.1 ES5中的严格模式
+        path: /10-ES6/01-ES5中的严格模式.md
+      - name: 10.2 ES5中的一些扩展
+        path: /10-ES6/02-ES5中的一些扩展.md
+      - name: 10.3 ES6的介绍和环境配置
+        path: /10-ES6/03-ES6的介绍和环境配置.md
+      - name: 10.4 变量、函数扩展
+        path: /10-ES6/04-ES6：变量、函数扩展.md
+      - name: 10.5 promise、async等
+        path: /10-ES6/05-ES6：promise、async等.md
+      - name: 10.6 字符串、数组、对象的扩展
+        path: /10-ES6/06-ES6：字符串、数组、对象的扩展.md
+  - name: 11. 前端基础
+    chapters:
+      - name: 11.1 UserAgent
+        path: /16-前端基础/UserAgent.md
+      - name: 11.2 ajax相关
+        path: /16-前端基础/ajax相关.md
+      - name: 11.3 css开发相关
+        path: /16-前端基础/css开发相关.md
+      - name: 11.4 html相关
+        path: /16-前端基础/html相关.md
+      - name: 11.5 json字符串的解析和遍历
+        path: /16-前端基础/json字符串的解析和遍历.md
+      - name: 11.6 json相关
+        path: /16-前端基础/json相关.md
+  - name: 12. 前端进阶
+    chapters:
+      - name: 12.1 前端的几道题目
+        path: /17-前端进阶/01-前端的几道题目.md
+      - name: 12.2 前端监控技术
+        path: /17-前端进阶/04-前端监控技术.md
+      - name: 12.3 lazyload&防抖动和节流阀
+        path: /17-前端进阶/09-lazyload&防抖动和节流阀.md
+  - name: 13. 前端面试
+    chapters:
+      - name: 13.1 准备
+        path: /18-前端面试/00-准备.md
+      - name: 13.2 页面布局
+        path: /18-前端面试/01-页面布局.md
+      - name: 13.3 CSS盒模型及BFC
+        path: /18-前端面试/02-CSS盒模型及BFC.md
+      - name: 13.4 DOM事件的总结
+        path: /18-前端面试/03-DOM事件的总结.md
+      - name: 13.5 HTTP协议
+        path: /18-前端面试/04-HTTP协议.md
+      - name: 13.6 创建对象和原型链
+        path: /18-前端面试/05-01.创建对象和原型链.md
+      - name: 13.7 面向对象：类的定义和继承的几种方式
+        path: /18-前端面试/05-02.面向对象：类的定义和继承的几种方式.md
+      - name: 13.8 跨域通信类
+        path: /18-前端面试/06-跨域通信类.md
+      - name: 13.9 安全问题：CSRF和XSS
+        path: /18-前端面试/07-安全问题：CSRF和XSS.md
+      - name: 13.10 算法问题
+        path: /18-前端面试/08-算法问题.md
+      - name: 13.11 浏览器渲染机制
+        path: /18-前端面试/09-01.浏览器渲染机制.md
+      - name: 13.12 js运行机制：异步和单线程
+        path: /18-前端面试/09-02.js运行机制：异步和单线程.md
+      - name: 13.13 页面性能优化
+        path: /18-前端面试/10-01.页面性能优化.md
+      - name: 13.14 前端错误监控
+        path: /18-前端面试/10-02.前端错误监控.md
+      - name: 13.15 JavaScript高级面试：前言
+        path: /18-前端面试/11-00.JavaScript高级面试：前言.md
+      - name: 13.16 模块化的使用和编译环境
+        path: /18-前端面试/11-01.ES6：模块化的使用和编译环境.md
+      - name: 13.17 ES6
+        path: /18-前端面试/11-02.ES6.md
+      - name: 13.18 虚拟DOM
+        path: /18-前端面试/15-虚拟DOM.md
+      - name: 13.19 MVVM
+        path: /18-前端面试/16-01.MVVM.md
+      - name: 13.20 面试题整理
+        path: /18-前端面试/21-面试题整理 by smyhvae.md
+      - name: 13.20 网友面经
+        path: /18-前端面试/22-网友面经.md
+      - name: 13.21 面试技巧
+        path: /18-前端面试/23-面试技巧 by smyhvae.md
+      - name: 13.22 推荐文章
+        path: /18-前端面试/z-推荐文章.md
+      - name: 13.23 计算机网络
+        path: /18-前端面试/z-计算机网络.md
+  - name: 14. 面试题积累
+    chapters:
+      - name: 14.1 我的面试经历 by smyhvae
+        path: /19-面试题积累/01-我的面试经历 by smyhvae.md
+      - name: 14.2 HTML和CSS相关
+        path: /19-面试题积累/02-HTML和CSS相关.md
+      - name: 14.3 JS相关
+        path: /19-面试题积累/03-JS相关.md
+      - name: 14.4 http
+        path: /19-面试题积累/03-http.md
+      - name: 14.5 变量提升的题目
+        path: /19-面试题积累/04-变量提升的题目.md
+      - name: 14.6 BAT爱考的JS面试题
+        path: /19-面试题积累/05-BAT爱考的JS面试题.md
+      - name: 14.7 博客园：一年经验初探阿里巴巴前端社招
+        path: /19-面试题积累/20180116-博客园：一年经验初探阿里巴巴前端社招.md
+      - name: 14.8 函数
+        path: /19-面试题积累/函数.md
+      - name: 14.9 异步
+        path: /19-面试题积累/异步.md
+      - name: 14.10 清单
+        path: /19-面试题积累/清单.md
+      - name: 14.11 面经链接推荐
+        path: /19-面试题积累/面经链接推荐.md
+  - name: 15. 前端综合
+    chapters:
+      - name: 15.1 前端日记
+        path: /20-前端综合/2018年-前端日记.md
+      - name: 15.2 2018年Web前端自学路线
+        path: /20-前端综合/2018年Web前端自学路线.md
+      - name: 15.3 前端中的一些概念
+        path: /20-前端综合/前端中的一些概念.md
+      - name: 15.4 前端开发积累
+        path: /20-前端综合/前端开发积累.md
+  - name: 16. Vue基础
+    chapters:
+      - name: 16.1 Vue的介绍和vue-cli
+        path: /21-Vue基础/00-Vue的介绍和vue-cli.md
+      - name: 16.2 Vue的系统指令
+        path: /21-Vue基础/01-01.Vue的系统指令.md
+      - name: 16.3 v-on的事件修饰符
+        path: /21-Vue基础/01-02.v-on的事件修饰符.md
+      - name: 16.4 Vue的系统指令(二)
+        path: /21-Vue基础/01-03.Vue的系统指令(二).md
+      - name: 16.5 Vue的举例：列表功能
+        path: /21-Vue基础/01-04.Vue的举例：列表功能.md
+      - name: 16.6 自定义过滤器：时间格式化举例
+        path: /21-Vue基础/01-05.自定义过滤器：时间格式化举例.md
+      - name: 16.7 自定义按键修饰符&自定义指令
+        path: /21-Vue基础/01-06.自定义按键修饰符&自定义指令.md
+      - name: 16.8 Vue实例的生命周期函数
+        path: /21-Vue基础/02-Vue实例的生命周期函数.md
+      - name: 16.9 Vue中的Ajax请求
+        path: /21-Vue基础/03-Vue中的Ajax请求.md
+      - name: 16.10 Vue动画
+        path: /21-Vue基础/04-Vue动画.md
+      - name: 16.11 Vue组件的定义和注册
+        path: /21-Vue基础/05-Vue组件的定义和注册.md
+      - name: 16.12 Vue组件之间的传值
+        path: /21-Vue基础/06-Vue组件之间的传值.md
+      - name: 16.13 Vue-router路由
+        path: /21-Vue基础/07-Vue-router路由.md
+      - name: 16.14 Vue开发积累
+        path: /21-Vue基础/Vue开发积累.md
+      - name: 16.15 Vue组件
+        path: /21-Vue基础/Vue组件.md
+  - name: 17. 前端工程化
+    chapters:
+      - name: 17.1 Webpack
+        path: /22-前端工程化/01-Webpack.md
+      - name: 17.2 项目介绍
+        path: /22-前端工程化/01-项目介绍.md
+      - name: 17.3 项目设计与原理分析
+        path: /22-前端工程化/02-项目设计与原理分析.md
+      - name: 17.4 京东金融的首页
+        path: /22-前端工程化/03-京东金融的首页.md
+      - name: 17.5 上线指导
+        path: /22-前端工程化/08-上线指导.md
+      - name: 17.6 构建工具
+        path: /22-前端工程化/09-构建工具.md
+      - name: 17.7 面试技巧
+        path: /22-前端工程化/11-面试技巧.md
+      - name: 17.8 Vue-router
+        path: /22-前端工程化/Vue-router.md
+      - name: 17.9 Vue基础知识
+        path: /22-前端工程化/Vue基础知识.md
+  - name: 18. 推荐连接
+    chapters:
+      - name: 18.1 推荐网站
+        path: /23-推荐连接/01-推荐网站.md
+      - name: 18.2 推荐文章
+        path: /23-推荐连接/02-推荐文章.md
+      - name: 18.3 互联网相关
+        path: /23-推荐连接/推荐链接-互联网相关.md
