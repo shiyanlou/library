@@ -1,0 +1,63 @@
+# CL0610/Java-concurrency配置
+---
+# 技术教程名称应总是唯一的
+name: Vim 实操教程  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: learn-vim
+topic: Linux运维
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Shell
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: dofy/learn-vim
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: dofy
+  email: 
+  # github 主页地址
+  github: github.com/dofy
+  blog: github.com/dofy
+# 描述信息
+description: |
+  以我个人学习 Vim 的经验来看，通过看文档或看其他人操作其实是很难真正学会 Vim 的，你必须在实际 应用中，进入真实场景才能逐渐熟悉并掌握相关命令。
+  因此，为了同时满足学习和操作的需求，项目中的文件都采用了 Markdown 格式，既可以当作说明文档来 阅读，也可以用 Vim 打开文件进行实际操作（建议采用后者）。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.1
+chapters:
+  - name: 前言
+    path: /README.md
+  - name: 1. 光标的移动
+    path: /file-one.md
+  - name: 2. 打开文件、查找内容
+    path: /file-two.md
+  - name: 3. 文档的修改与保存
+    path: /file-three.md
+  - name: 4. 一些小技巧
+    path: /file-four.md
+  - name: 5. 分屏与标签页
+    path: /file-five.md
+  - name: 6. 块操作
+    path: /file-six.md
+  - name: 7. Vim 中的宏
+    path: /file-seven.md
+  - name: 8. Vim 插件
+    path: /plugin.md
+  - name: 9. 插件推荐
+    path: /plugins/index.md
+    chapters:
+      - name: 9.1 NERDTree
+        path: /plugins/nerdtree.md
+      - name: 9.2 EasyAlign
+        path: /plugins/easyalign.md
+      - name: 9.3 Airline & Themes
+        path: /plugins/airline.md
+
+
+
