@@ -1,0 +1,71 @@
+# elarity/advanced-php配置
+---
+# 技术教程名称应总是唯一的
+name: PHP进阶教程
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: advanced-php
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - PHP
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: elarity/advanced-php
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: elarity
+  email: 
+  # github 主页地址
+  github: github.com/elarity
+  blog: github.com/elarity
+# 描述信息
+description: |
+  都是自己的一些总结，长期持续更新，错误难免，欢迎批评斧正！
+  原篇幅都存于博客，同步更新，博客对移动端阅读支持更好些https://t.ti-node.com/
+  感谢workerman 1群“小菜鸟”（不是我叫TA小菜鸟，是TA自己就叫这个昵称）指出错误
+  感谢swoole 1群“木棉”建议添加文章序列
+  感谢gayhub网友tonyxyl 指出一处拼写错误
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.1
+chapters:
+  - name: 1. php进程daemon化的正确做法
+    path: /1. php进程daemon化的正确做法.md
+  - name: 2. 多进程初探---开篇
+    path: /2. php多进程初探---开篇.md
+  - name: 3. php多进程初探---孤儿和僵尸
+    path: /3. php多进程初探---孤儿和僵尸.md
+  - name: 4. php多进程初探---信号
+    path: /4. php多进程初探---信号.md
+  - name: 5. swoole的进程模型
+    path: /5. swoole的进程模型.md
+  - name: 6. php多进程初探---利用多进程开发点儿东西
+    path: /6. php多进程初探---利用多进程开发点儿东西.md
+  - name: 7. php多进程初探---再次谈daemon进程
+    path: /7. php多进程初探---再次谈daemon进程.md
+  - name: 8. php多进程初探---进程间通信二三事
+    path: /8. php多进程初探---进程间通信二三事.md
+  - name: 9. PHP Socket初探---先从一个简单的socket服务器开始
+    path: /9. PHP Socket初探---先从一个简单的socket服务器开始.md
+  - name: 10. PHP socket初探---关于IO的一些枯燥理论
+    path: /10. PHP socket初探---关于IO的一些枯燥理论.md
+  - name: 11. PHP socket初探---select系统调用
+    path: /11. PHP socket初探---select系统调用.md
+  - name: 12. PHP socket初探 --- 颤颤抖抖开篇epoll（一）
+    path: /12. PHP socket初探 --- 颤颤抖抖开篇epoll（一）.md
+  - name: 13. PHP socket初探 --- 硬着头皮继续libevent（二）
+    path: /13. PHP socket初探 --- 硬着头皮继续libevent（二）.md
+  - name: 14. PHP socket初探 --- 含着泪也要磕完libevent（三）
+    path: /14. PHP socket初探 --- 含着泪也要磕完libevent（三）.md
+  - name: 15. PHP socket初探 --- 一些零碎细节的拾漏补缺（一）
+    path: /15. PHP socket初探 --- 一些零碎细节的拾漏补缺（一）.md
+  - name: 16. swoole的协程是个什么鬼
+    path: /16. swoole的协程是个什么鬼.md
+  - name: 17. PHP中的yield
+    path: /17. PHP中的yield（上）.md
+
