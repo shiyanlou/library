@@ -1,0 +1,36 @@
+# xtutu/influxdb-handbook配置
+---
+# 技术教程名称应总是唯一的
+name: influxdb 简明教程
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: influxdb-handbook
+topic: 数据库
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Influxdb
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: xtutu/influxdb-handbook
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: xtutu
+  email: maicss@foxmail.com 
+  # github 主页地址
+  github: github.com/maicss
+  blog: maicss.com
+# 描述信息
+description: |
+  写这本手册的时候InfluxDB版本为： v0.10 
+  本手册只是简单的上手教程，并不是官方文档的详细翻译。 之所以不是官方文档的中文翻译，有两方面原因：
+  精力有限，全部翻译量实在是太大了。
+  官方文档是开源的：https://github.com/influxdata/docs.influxdata.com
+  它所采用的文档工具gohugo.io是支持多语言设计的。
+  所以有兴趣参与的同学，可以直接在Github上Fork。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.1
