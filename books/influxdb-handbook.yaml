@@ -18,10 +18,10 @@ repository_dir: /
 # 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
 author:
   name: xtutu
-  email: maicss@foxmail.com 
+  email: 
   # github 主页地址
-  github: github.com/maicss
-  blog: maicss.com
+  github: github.com/xtutu
+  blog: http://xtutu.me/
 # 描述信息
 description: |
   写这本手册的时候InfluxDB版本为： v0.10 
