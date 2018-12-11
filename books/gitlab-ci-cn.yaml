@@ -1,0 +1,44 @@
+# Fennay/gitlab-ci-cn配置
+---
+# 技术教程名称应总是唯一的
+name: gitlab-ci官方文档翻译 
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: gitlab-ci-cn
+topic: 其他技术
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Git
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: Fennay/gitlab-ci-cn
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: Fennay
+  email: feng@fennay.com
+  # github 主页地址
+  github: github.com/Fennay
+  blog: github.com/Fennay
+# 描述信息
+description: |
+  官方GitLab文档翻译
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.1
+chapters:
+  - name: 1. 快速开始
+    path: /quick_start.md
+  - name: 2. GitLab 持续集成
+    path: /GitLab CI.md
+  - name: 3. 变量
+    path: /Variables.md
+  - name: 4. 通过 .gitlab-ci.yml配置任务
+    path: /gitlab-ci-yaml.md
+  - name: 5. 管道和作业介绍
+    path: /pipelines.md
+
+
