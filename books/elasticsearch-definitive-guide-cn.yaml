@@ -1,0 +1,31 @@
+#  looly/elasticsearch-definitive-guide-cn配置
+---
+# 技术教程名称应总是唯一的
+name: Elasticsearch权威指南中文版
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: elasticsearch-definitive-guide-cn
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Java
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: looly/elasticsearch-definitive-guide-cn
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: looly
+  email: 
+  # github 主页地址
+  github: github.com/looly
+  blog: www.luxiaolei.com
+# 描述信息
+description: |
+  之前接触Elasticsearch只是最简单的使用，想要深入了解内部功能，借助翻译同时系统学习。由于英语比较菜，第一次翻译文档，如有不妥，欢迎提issue。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.1
