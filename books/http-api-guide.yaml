@@ -29,3 +29,8 @@ description: |
 official: false
 # 教程版本号
 version: 1.1
+chapters:
+  - name: HTTP接口设计指北
+    path: /README.md
+  - name: 补充内容
+    path: /SUPPLEMENT.md
