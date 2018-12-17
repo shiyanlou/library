@@ -29,3 +29,11 @@ description: |
 official: false
 # 教程版本号
 version: 1.0
+chapters:
+  - name: 1. Redux简明教程
+    path: /README.md
+  - name: 2. Redux 进阶教程
+    path: /redux-advanced-tutorial.md
+  - name: 3. 中间件的洋葱模型
+    path: /middleware-onion-model.md
+
