@@ -1,0 +1,198 @@
+# LearnOpenGL-CN/LearnOpenGL-CN配置
+---
+# 技术教程名称应总是唯一的
+name: Learn OpenGL  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: LearnOpenGL-CN
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - C++
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: LearnOpenGL-CN/LearnOpenGL-CN
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: LearnOpen-GL
+  email: 
+  # github 主页地址
+  github: github.com/LearnOpenGL-CN
+  blog: github.com/LearnOpenGL-CN
+# 描述信息
+description: |
+  欢迎来到OpenGL的世界。这个工程只是我(Joey de Vries)的一次小小的尝试，希望能够建立起一个完善的OpenGL教学平台。无论你学习OpenGL是为了学业，找工作，或仅仅是因为兴趣，这个网站都将能够教会你现代(Core-profile) OpenGL从基础，中级，到高级的知识。LearnOpenGL的目标是使用易于理解的形式，使用清晰的例子，展现现代OpenGL的所有知识点，并与此同时为你以后的学习提供有用的参考。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
+chapters:
+  - name: 1. 前言
+    path: /docs/index.md
+  - name: 2. 介绍
+    path: /docs/intro.md
+  - name: 3. 快速开始
+    chapters:
+      - name: 3.1 OpenGL
+        path: /docs/01 Getting started/01 OpenGL.md
+      - name: 3.2 创建窗口
+        path: /docs/01 Getting started/02 Creating a window.md
+      - name: 3.3 你好，窗口
+        path: /docs/01 Getting started/03 Hello Window.md
+      - name: 3.4 你好，三角形
+        path: /docs/01 Getting started/04 Hello Triangle.md
+      - name: 3.5 着色器
+        path: /docs/01 Getting started/05 Shaders.md
+      - name: 3.6 纹理
+        path: /docs/01 Getting started/06 Textures.md
+      - name: 3.7 变换
+        path: /docs/01 Getting started/07 Transformations.md
+      - name: 3.8 坐标系统
+        path: /docs/01 Getting started/08 Coordinate Systems.md
+      - name: 3.9 摄像机
+        path: /docs/01 Getting started/09 Camera.md
+      - name: 3.10 复习
+        path: /docs/01 Getting started/10 Review.md
+  - name: 4. 光照
+    chapters:
+      - name: 4.1 颜色
+        path: /docs/02 Lighting/01 Colors.md
+      - name: 4.2 基础光照
+        path: /docs/02 Lighting/02 Basic Lighting.md
+      - name: 4.3 材质
+        path: /docs/02 Lighting/03 Materials.md
+      - name: 4.4 光照贴图
+        path: /docs/02 Lighting/04 Lighting maps.md
+      - name: 4.5 投光物
+        path: /docs/02 Lighting/05 Light casters.md
+      - name: 4.6 多光源
+        path: /docs/02 Lighting/06 Multiple lights.md
+      - name: 4.7 复习
+        path: /docs/02 Lighting/07 Review.md
+  - name: 5. 模板加载
+    chapters:
+      - name: 5.1 Assimp
+        path: /docs/03 Model Loading/01 Assimp.md
+      - name: 5.2 网格
+        path: /docs/03 Model Loading/02 Mesh.md
+      - name: 5.3 模型
+        path: /docs/03 Model Loading/03 Model.md
+  - name: 6. 高级 OpenGL
+    chapters:
+      - name: 6.1 深度测试
+        path: /docs/04 Advanced OpenGL/01 Depth testing.md
+      - name: 6.2 模板测试
+        path: /docs/04 Advanced OpenGL/02 Stencil testing.md
+      - name: 6.3 混合
+        path: /docs/04 Advanced OpenGL/03 Blending.md
+      - name: 6.4 面剔除
+        path: /docs/04 Advanced OpenGL/04 Face culling.md
+      - name: 6.5 帧缓冲
+        path: /docs/04 Advanced OpenGL/05 Framebuffers.md
+      - name: 6.6 立方体贴图
+        path: /docs/04 Advanced OpenGL/06 Cubemaps.md
+      - name: 6.7 高级数据
+        path: /docs/04 Advanced OpenGL/07 Advanced Data.md
+      - name: 6.8 高级GLSL
+        path: /docs/04 Advanced OpenGL/08 Advanced GLSL.md
+      - name: 6.9 几何着色器
+        path: /docs/04 Advanced OpenGL/09 Geometry Shader.md
+      - name: 6.10 实例化
+        path: /docs/04 Advanced OpenGL/10 Instancing.md
+      - name: 6.11 抗锯齿
+        path: /docs/04 Advanced OpenGL/11 Anti Aliasing.md
+  - name: 7. 高级光照
+    chapters:
+      - name: 7.1 高级光照
+        path: /docs/05 Advanced Lighting/01 Advanced Lighting.md
+      - name: 7.2 Gamma校正
+        path: /docs/05 Advanced Lighting/02 Gamma Correction.md
+      - name: 7.3 阴影
+        chapters:
+          - name: 7.3.1 阴影映射
+            path: /docs/05 Advanced Lighting/03 Shadows/01 Shadow Mapping.md
+          - name: 7.3.2 点光源阴影
+            path: /docs/05 Advanced Lighting/03 Shadows/02 Point Shadows.md
+          - name: 7.3.3 CSM
+            path: /docs/05 Advanced Lighting/03 Shadows/03 CSM.md
+      - name: 7.4 法线贴图
+        path: /docs/05 Advanced Lighting/04 Normal Mapping.md
+      - name: 7.5 视差贴图
+        path: /docs/05 Advanced Lighting/05 Parallax Mapping.md
+      - name: 7.6 HDR
+        path: /docs/05 Advanced Lighting/06 HDR.md
+      - name: 7.7 泛光
+        path: /docs/05 Advanced Lighting/07 Bloom.md
+      - name: 7.8 延迟着色法
+        path: /docs/05 Advanced Lighting/08 Deferred Shading.md
+      - name: 7.9 SSAO
+        path: /docs/05 Advanced Lighting/09 SSAO.md
+  - name: 8. In Practice
+    chapters:
+      - name: 8.1 调试
+        path: /docs/06 In Practice/01 Debugging.md
+      - name: 8.2 文本渲染
+        path: /docs/06 In Practice/02 Text Rendering.md
+      - name: 8.3 制作 2D 经典游戏 Breakout
+        chapters:
+          - name: 8.3.1 Breakout
+            path: /docs/06 In Practice/2D-Game/01 Breakout.md
+          - name: 8.3.2 准备工作
+            path: /docs/06 In Practice/2D-Game/02 Setting up.md
+          - name: 8.3.3 渲染精灵
+            path: /docs/06 In Practice/2D-Game/03 Rendering Sprites.md
+          - name: 8.3.4 关卡
+            path: /docs/06 In Practice/2D-Game/04 Levels.md
+          - name: 8.3.5 球
+            path: /docs/06 In Practice/2D-Game/05 Collisions/01 Ball.md
+          - name: 8.3.6 碰撞检测
+            path: /docs/06 In Practice/2D-Game/05 Collisions/02 Collision detection.md
+          - name: 8.3.7 碰撞处理
+            path: /docs/06 In Practice/2D-Game/05 Collisions/03 Collision resolution.md
+          - name: 8.3.8 粒子
+            path: /docs/06 In Practice/2D-Game/06 Particles.md
+          - name: 8.3.9 后期处理
+            path: /docs/06 In Practice/2D-Game/07 Postprocessing.md
+          - name: 8.3.10 道具
+            path: /docs/06 In Practice/2D-Game/08 Powerups.md
+          - name: 8.3.11 音效
+            path: /docs/06 In Practice/2D-Game/09 Audio.md
+          - name: 8.3.12 渲染文本
+            path: /docs/06 In Practice/2D-Game/10 Render Text.md
+          - name: 8.3.13 结语
+            path: /docs/06 In Practice/2D-Game/11 Final thoughts.md
+  - name: 9. PBR
+    chapters:
+      - name: 9.1 理论
+        path: /docs/07 PBR/01 Theory.md
+      - name: 9.2 光照
+        path: /docs/07 PBR/02 Lighting.md
+      - name: 9.3 IBL
+        chapters:
+          - name: 9.3.1 漫反射辐照
+            path: /docs/07 PBR/03 IBL/01 Diffuse irradiance.md
+          - name: 9.3.2 镜面IBL
+            path: /docs/07 PBR/03 IBL/02 Specular IBL.md
+  - name: 10. Effects
+    chapters:
+      - name: 10.1 雾
+        path: /docs/08 Effects/01 Fog.md
+      - name: 10.2 卡通着色
+        path: /docs/08 Effects/02 Toon shading.md
+  - name: 11. 后记
+    chapters:
+      - name: 11.1 历史存档
+        path: /docs/legacy.md
+      - name: 11.2 专有词汇翻译记录
+        path: /glossary.md
+      - name: 11.3 样式指南
+        path: /styleguide.md
+
+
+
+        
+        
+        
