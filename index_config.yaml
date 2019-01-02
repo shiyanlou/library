@@ -184,8 +184,6 @@ blocks:
       - Node.js 教程
       - Sanic使用教程
       - twisted与异步编程入门
-      - Python3 Cookbook
-      - Django源码小剖
       - CGDB中文手册
       - Opencv中文文档(Python)
       - pyQT5教程
@@ -213,13 +211,11 @@ blocks:
       - 理解Linux进程
       - 像IDE一样实验Vim
       - Vim 实操教程
-      - Linux工具快速教程
       - OpenResty最佳实践
       - Http API设计指南
       - Http接口设计指北
   - topic: 云计算与数据分析
     books:
-      - 18个经典数据挖掘算法实现
       - 神经网络与深度学习
       - Keras中文文档
       - kubernetes中文指南
