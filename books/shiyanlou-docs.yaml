@@ -18,7 +18,7 @@ repository_dir: /
 # 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
 author:
   name: shiyanlou
-  email: support@shiyanlou.com 
+  email: support@shiyanlou.com
   # github 主页地址
   github: github.com/shiyanlou
   blog: shiyanlou.com
@@ -28,4 +28,4 @@ description: |
 # 配置教程是否该领域官方教程
 official: true
 # 教程版本号
-version: 1.3
+version: 1.6
