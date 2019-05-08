@@ -1,0 +1,192 @@
+# Snailclimb/JavaGuide配置
+---
+# 技术教程名称应总是唯一的
+name: Java 学习+面试指南   
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: JavaGuide
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Java
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: Snailclimb/JavaGuide
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: Snailclimb
+  email: 
+  # github 主页地址
+  github: /github.com/Snailclimb
+  blog: https://snailclimb.top/
+# 描述信息
+description: |
+  对于 Java 初学者来说： 本文档倾向于给你提供一个比较详细的学习路径，让你对于Java整体的知识体系有一个初步认识。另外，本文的一些文章 也是你学习和复习 Java 知识不错的实践；
+  对于非 Java 初学者来说： 本文档更适合回顾知识，准备面试，搞清面试应该把重心放在那些问题上。要搞清楚这个道理：提前知道那些面试常见，不是为了背下来应付面试，而是为了让你可以更有针对的学习重点。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.2
+chapters:
+  - name: 前言目录
+    path: /README.md
+  - name: Java
+    chapters:
+      - name: 基础
+        chapters:
+          - name: Java 基础知识回顾
+            path: /docs/java/Java基础知识.md
+          - name: J2EE 基础知识回顾
+            path: /docs/java/J2EE基础知识.md
+      - name: 容器
+        chapters:
+          - name: 常见面试题
+            path: /docs/java/collection/Java集合框架常见面试题.md
+          - name: ArrayList 源码学习
+            path: /docs/java/collection/ArrayList.md
+          - name: LinkedList 源码学习
+            path: /docs/java/collection/LinkedList.md
+          - name: HashMap(JDK1.8)源码学习
+            path: /docs/java/collection/HashMap.md
+      - name: 并发
+        chapters:
+          - name: Java 并发基础常见面试题总结
+            path: /docs/java/Multithread/JavaConcurrencyBasicsCommonInterviewQuestionsSummary.md
+          - name: Java 并发进阶常见面试题总结
+            path: /docs/java/Multithread/JavaConcurrencyAdvancedCommonInterviewQuestions.md
+          - name: 并发容器总结
+            path: /docs/java/Multithread/并发容器总结.md
+          - name: 乐观锁与悲观锁
+            path: /docs/essential-content-for-interview/面试必备之乐观锁与悲观锁.md
+          - name: JUC 中的 Atomic 原子类总结
+            path: /docs/java/Multithread/Atomic.md
+          - name: AQS 原理以及 AQS 同步组件总结
+            path: /docs/java/Multithread/AQS.md
+      - name: JVM
+        chapters:
+          - name: Java内存区域
+            path: /docs/java/jvm/Java内存区域.md
+          - name: JVM垃圾回收
+            path: /docs/java/jvm/JVM垃圾回收.md
+          - name: JDK 监控和故障处理工具
+            path: /docs/java/jvm/JDK监控和故障处理工具总结.md
+          - name: 《深入理解Java虚拟机》第2版学习笔记
+            path: /docs/java/Java虚拟机（jvm）.md
+      - name: I/O
+        chapters:
+          - name: BIO,NIO,AIO 总结
+            path: /docs/java/BIO-NIO-AIO.md
+          - name: Java IO 与 NIO系列文章
+            path: /docs/java/Java IO与NIO.md
+      - name: Java 8 
+        chapters:
+          - name: Java 8 新特性总结
+            path: /docs/java/What's New in JDK8/Java8Tutorial.md
+          - name: Java 8 学习资源推荐
+            path: /docs/java/What's New in JDK8/Java8教程推荐.md
+      - name: 编程规范
+        chapters:
+          - name: Java 编程规范
+            path: /docs/java/Java编程规范.md
+  - name: 网络
+    chapters:
+      - name: 计算机网络常见面试题
+        path: /docs/network/计算机网络.md
+      - name: 计算机网络基础知识总结
+        path: /docs/network/干货：计算机网络知识总结.md
+      - name: HTTPS中的TLS
+        path: /docs/network/HTTPS中的TLS.md
+  - name: 操作系统
+    chapters:
+      - name: Linux 相关
+        chapters:
+          - name: 后端程序员必备的 Linux 基础知识
+            path: /docs/operating-system/后端程序员必备的Linux基础知识.md
+          - name: Shell 编程入门
+            path: /docs/operating-system/Shell.md
+  - name: 数据结构与算法
+    chapters:
+      - name: 数据结构
+        chapters:
+          - name: 数据结构知识学习与面试
+            path: /docs/dataStructures-algorithms/数据结构.md
+      - name: 算法
+        chapters:
+          - name: 算法学习资源推荐
+            path: /docs/dataStructures-algorithms/算法学习资源推荐.md
+          - name: 几道常见的子符串算法题总结
+            path: /docs/dataStructures-algorithms/几道常见的子符串算法题.md
+          - name: 几道常见的链表算法题总结
+            path: /docs/dataStructures-algorithms/几道常见的链表算法题.md
+          - name: 剑指offer部分编程题
+            path: /docs/dataStructures-algorithms/剑指offer部分编程题.md
+          - name: 公司真题
+            path: /docs/dataStructures-algorithms/公司真题.md
+          - name: 回溯算法经典案例之N皇后问题
+            path: /docs/dataStructures-algorithms/Backtracking-NQueens.md
+  - name: 数据库
+    chapters:
+      - name: MySQL
+        chapters:
+          - name: MySQL 学习与面试
+            path: /docs/database/MySQL.md
+          - name: 一千行MySQL学习笔记
+            path: /docs/database/一千行MySQL命令.md
+          - name: MySQL高性能优化规范建议
+            path: /docs/database/MySQL高性能优化规范建议.md
+          - name: 搞定数据库索引就是这么简单
+            path: /docs/database/MySQL Index.md
+          - name: 事务隔离级别(图文详解)
+            path: /docs/database/事务隔离级别(图文详解).md
+          - name: 一条SQL语句在MySQL中如何执行的
+            path: /docs/database/一条sql语句在mysql中如何执行的.md
+      - name: Redis
+        chapters:
+          - name: Redis 总结
+            path: /docs/database/Redis/Redis.md
+          - name: Redlock分布式锁
+            path: /docs/database/Redis/Redlock分布式锁.md
+          - name: 如何做可靠的分布式锁，Redlock真的可行么
+            path: /docs/database/Redis/如何做可靠的分布式锁，Redlock真的可行么.md
+  - name: 系统设计
+    chapters:
+      - name: 设计模式
+        chapters:
+          - name: 设计模式系列文章
+            path: /docs/system-design/设计模式.md
+      - name: 常用框架之 Spring
+        chapters:
+          - name: Spring 学习与面试
+            path: /docs/system-design/framework/Spring学习与面试.md
+          - name: Spring中bean的作用域与生命周期
+            path: /docs/system-design/framework/SpringBean.md
+          - name: SpringMVC 工作原理详解
+            path: /docs/system-design/framework/SpringMVC 工作原理详解.md
+      - name: 常用框架之 ZooKeeper
+        chapters:
+          - name: ZooKeeper 相关概念总结
+            path: /docs/system-design/framework/ZooKeeper.md
+          - name: ZooKeeper 数据模型和常见命令
+            path: /docs/system-design/framework/ZooKeeper数据模型和常见命令.md
+      - name: 数据通信
+        chapters:
+          - name: 数据通信(RESTful、RPC、消息队列)相关知识点总结
+            path: /docs/system-design/data-communication/数据通信(RESTful、RPC、消息队列).md
+          - name: Dubbo 总结：关于 Dubbo 的重要知识点
+            path: /docs/system-design/data-communication/dubbo.md
+          - name: 消息队列总结
+            path: /docs/system-design/data-communication/message-queue.md
+          - name: RabbitMQ 的重要概念以及安装
+            path: /docs/system-design/data-communication/rabbitmq.md
+      - name: 网站架构
+        chapters:
+          - name: 一文读懂分布式应该学什么
+            path: /docs/system-design/website-architecture/分布式.md
+          - name: 8 张图读懂大型网站技术架构
+            path: /docs/system-design/website-architecture/8 张图读懂大型网站技术架构.md
+      
+            
+            
