@@ -192,6 +192,8 @@ blocks:
       - rails实践
       - Java并发知识点总结
       - Elasticsearch权威指南中文版
+      - Java 学习+面试指南
+      - Go语言高级编程
   - topic: Web前端
     books:
       - CSS3教程
@@ -221,6 +223,7 @@ blocks:
       - kubernetes中文指南
       - numpy用户指南
       - kubernetes完全教程
+      - 算法/深度学习/NLP面试笔记
   - topic: 数据库
     books:
       - MongoDB小书
