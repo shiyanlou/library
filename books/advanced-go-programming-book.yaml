@@ -1,0 +1,31 @@
+# chai2010/advanced-go-programming-book配置
+---
+# 技术教程名称应总是唯一的
+name: Go语言高级编程
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: advanced-go-programming-book
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Go
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: chai2010/advanced-go-programming-book
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: 柴树杉
+  email: 
+  # github 主页地址
+  github: github.com/howie6879
+  blog: https://chai2010.cn/about
+# 描述信息
+description: |
+  本书涵盖CGO、Go汇编语言、RPC实现、Web框架实现、分布式系统等高阶主题，针对Go语言有一定经验想深入了解Go语言各种高级用法的开发人员。对于刚学习Go语言的读者，建议先从《Go语言圣经》开始系统学习Go语言的基础知识。如果希望了解Go2的最新动向，可以参考《Go2编程指南》。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
