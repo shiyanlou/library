@@ -1,0 +1,36 @@
+
+# 521xueweihan/git-tips配置
+---
+# 技术教程名称应总是唯一的
+name: Git的奇技淫巧
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: git-tips
+topic: 其他技术
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Git
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: 521xueweihan/git-tips
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: 削微寒
+  email: 
+  # github 主页地址
+  github: github.com/521xueweihan
+  blog: https://hellogithub.com/
+# 描述信息
+description: |
+  Git是一个 “分布式版本管理工具”，简单的理解版本管理工具：大家在写东西的时候都用过 “回撤” 这个功能，但是回撤只能回撤几步，假如想要找回我三天之前的修改，光用 “回撤” 是找不回来的。而 “版本管理工具” 能记录每次的修改，只要提交到版本仓库，你就可以找到之前任何时刻的状态（文本状态）。
+  下面的内容就是列举了常用的 Git 命令和一些小技巧，可以通过 "页面内查找" 的方式进行快速查询：Ctrl/Command+f。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
+chapters:
+  - name: 内容
+    path: /README.md
