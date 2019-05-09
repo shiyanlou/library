@@ -1,0 +1,165 @@
+
+# imhuay/Algorithm_Interview_Notes-Chinese配置
+---
+# 技术教程名称应总是唯一的
+name: 算法/深度学习/NLP面试笔记  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: Algorithm-Interview-Notes-Chinese
+topic: 云计算与数据分析
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 机器学习
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: imhuay/Algorithm_Interview_Notes-Chinese
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: imhuay
+  email: 
+  # github 主页地址
+  github: https://github.com/imhuay
+  blog: https://github.com/imhuay
+# 描述信息
+description: |
+  这是一份算法、深度学习、NLP 的学习和面试笔记
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.2
+chapters:
+  - name: 机器学习
+    chapters:
+      - name: 机器学习基础
+        path: /A-机器学习/A-机器学习基础.md
+      - name: 机器学习实践
+        path: /A-机器学习/A-机器学习实践.md
+      - name: 机器学习算法
+        path: /A-机器学习/A-机器学习算法.md
+      - name: 集成学习
+        path: /A-机器学习/C-专题-集成学习.md
+  - name: 深度学习
+    chapters:
+      - name: 深度学习基础
+        path: /A-深度学习/A-深度学习基础.md
+      - name: 深度学习实践
+        path: /A-深度学习/A-深度学习实践.md
+      - name: 专题-CNN
+        path: /A-深度学习/B-专题-CNN.md
+      - name: 专题-RNN
+        path: /A-深度学习/B-专题-RNN.md
+      - name: 专题-优化算法
+        path: /A-深度学习/C-专题-优化算法.md
+      - name: 专题-序列建模
+        path: /A-深度学习/D-专题-序列建模.md
+      - name: 《深度学习》整理
+        path: /A-深度学习/《深度学习》整理.md
+      - name: 备忘-术语表
+        path: /A-深度学习/备忘-术语表.md
+  - name: 自然语言处理
+    chapters:
+      - name: NLP 发展趋势
+        path: /B-自然语言处理/A-NLP发展趋势.md
+      - name: 自然语言处理基础
+        path: /B-自然语言处理/A-自然语言处理基础.md
+      - name: 专题-句嵌入
+        path: /B-自然语言处理/B-专题-句嵌入.md
+      - name: 专题-词向量
+        path: /B-自然语言处理/B-专题-词向量.md
+      - name: 专题-多模态
+        path: /B-自然语言处理/C-专题-多模态.md
+      - name: 视觉问答（VQA）综述
+        path: /B-自然语言处理/D-视觉问答-1_综述.md
+      - name: DQU 综述
+        path: /B-自然语言处理/深度查询理解/A-综述.md
+  - name: 数学
+    chapters:
+      - name: 概率论
+        path: /C-数学/A-概率论.md
+      - name: 微积分的本质
+        path: /C-数学/B-微积分的本质.md
+      - name: 深度学习的核心
+        path: /C-数学/B-深度学习的核心.md
+  - name: 算法
+    chapters:
+      - name: 字符串
+        path: /C-算法/专题-A-字符串.md
+      - name: 数据结构
+        path: /C-算法/专题-A-数据结构.md
+      - name: 数据结构_Advanced
+        path: /C-算法/专题-A-数据结构_Advanced.md
+      - name: 专题-B-动态规划
+        path: /C-算法/专题-B-动态规划.md
+      - name: 双指针
+        path: /C-算法/专题-B-双指针.md
+      - name: 区间问题
+        path: /C-算法/专题-C-区间问题.md
+      - name: 排列组合
+        path: /C-算法/专题-C-排列组合.md
+      - name: 数学问题
+        path: /C-算法/专题-C-数学问题.md
+      - name: 洗牌、采样、随机
+        path: /C-算法/专题-C-洗牌、采样、随机数.md
+      - name: 大数运算
+        path: /C-算法/专题-D-大数运算.md
+      - name: 海量数据处理
+        path: /C-算法/专题-D-海量数据处理.md
+      - name: IO模板
+        path: /C-算法/备忘-IO模板.md
+      - name: 必备算法
+        path: /C-算法/备忘-必备算法.md
+      - name: 题解-LeetCode
+        path: /C-算法/题解-LeetCode.md
+      - name: 题解-剑指Offer
+        path: /C-算法/题解-剑指Offer.md
+      - name: 题解-面试真题
+        path: /C-算法/题解-面试真题.md
+  - name: 编程语言
+    chapters:
+      - name: C++基础
+        path: /C-编程语言/Cpp-A-基础.md
+      - name: C++面向对象
+        path: /C-编程语言/Cpp-A-面向对象.md
+      - name: C++中的左值与右值
+        path: /C-编程语言/Cpp-C-左值与右值.md
+  - name: 笔试面经
+      - name: 笔试-360-180827
+        path: /D-笔试面经/笔试-360-180827.md
+      - name: 笔试-iHandy-180927
+        path: /D-笔试面经/笔试-iHandy-180927.md
+      - name: 笔试-作业帮-180925
+        path: /D-笔试面经/笔试-作业帮-180925.md
+      - name: 笔试-字节跳动-180812
+        path: /D-笔试面经/笔试-字节跳动-180812.md
+      - name: 笔试-小米-180920
+        path: /D-笔试面经/笔试-小米-180920.md
+      - name: 笔试-度小满-180913
+        path: /D-笔试面经/笔试-度小满-180913.md
+      - name: 笔试-快手-180910
+        path: /D-笔试面经/笔试-快手-180910.md
+      - name: 笔试-招行-180830
+        path: /D-笔试面经/笔试-招行-180830.md
+      - name: 笔试-搜狐畅游-180915
+        path: /D-笔试面经/笔试-搜狐畅游-180915.md
+      - name: 笔试-滴滴-180918
+        path: /D-笔试面经/笔试-滴滴-180918.md
+      - name: 笔试-爱奇艺-180915
+        path: /D-笔试面经/笔试-爱奇艺-180915.md
+      - name: 笔试-百度-180911
+        path: /D-笔试面经/笔试-百度-180911.md
+      - name: 笔试-百度-180914
+        path: /D-笔试面经/笔试-百度-180914.md
+      - name: 笔试-百词斩-180920
+        path: /D-笔试面经/笔试-百词斩-180920.md
+      - name: 笔试-腾讯-180916
+        path: /D-笔试面经/笔试-腾讯-180916.md
+      - name: 笔试-迅雷-180912
+        path: /D-笔试面经/笔试-迅雷-180912.md
+      - name: 笔试-顺丰-180917
+        path: /D-笔试面经/笔试-顺丰-180917.md
+        
+      
+
