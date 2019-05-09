@@ -187,6 +187,71 @@ chapters:
             path: /docs/system-design/website-architecture/分布式.md
           - name: 8 张图读懂大型网站技术架构
             path: /docs/system-design/website-architecture/8 张图读懂大型网站技术架构.md
-      
+          - name: 【面试精选】关于大型网站系统架构你不得不懂的10个问题
+            path: /docs/system-design/website-architecture/【面试精选】关于大型网站系统架构你不得不懂的10个问题.md
+  - name: 面试指南
+    chapters:
+      - name: 备战面试
+        chapters:
+          - name: 【备战面试1】程序员的简历就该这样写
+            path: /docs/essential-content-for-interview/PreparingForInterview/程序员的简历之道.md
+          - name: 【备战面试2】初出茅庐的程序员该如何准备面试？ 
+            path: /docs/essential-content-for-interview/PreparingForInterview/interviewPrepare.md
+          - name: 【备战面试3】7个大部分程序员在面试前很关心的问题
+            path: /docs/essential-content-for-interview/PreparingForInterview/JavaProgrammerNeedKnow.md
+          - name: 【备战面试4】Github上开源的Java面试/学习相关的仓库推荐
+            path: /docs/essential-content-for-interview/PreparingForInterview/JavaInterviewLibrary.md
+          - name: 【备战面试5】如果面试官问你“你有什么问题问我吗？”时，你该如何回答
+            path: /docs/essential-content-for-interview/PreparingForInterview/如果面试官问你“你有什么问题问我吗？”时，你该如何回答.md
+          - name: 【备战面试6】美团面试常见问题总结（附详解答案）
+            path: /docs/essential-content-for-interview/PreparingForInterview/美团面试常见问题总结.md
+      - name: 常见面试题总结
+        chapters:
+          - name: 第一周（2018-8-7）
+            path: /docs/essential-content-for-interview/MostCommonJavaInterviewQuestions/第一周（2018-8-7）.md
+          - name: 第二周（2018-8-13）
+            path: /docs/essential-content-for-interview/MostCommonJavaInterviewQuestions/第二周(2018-8-13).md
+          - name: 第三周（2018-08-22）
+            path: /docs/java/collection/Java集合框架常见面试题.md
+          - name: 第四周(2018-8-30).md 
+            path: /docs/essential-content-for-interview/MostCommonJavaInterviewQuestions/第四周(2018-8-30).md
+      - name: 面经
+        chapters:
+          - name: 5面阿里,终获offer(2018年秋招)
+            path: /docs/essential-content-for-interview/BATJrealInterviewExperience/5面阿里,终获offer.md
+          - name: 蚂蚁金服2019实习生面经总结(已拿口头offer)
+            path: /docs/essential-content-for-interview/BATJrealInterviewExperience/蚂蚁金服实习生面经总结(已拿口头offer).md
+          - name: 2019年蚂蚁金服、头条、拼多多的面试总结
+            path: /docs/essential-content-for-interview/BATJrealInterviewExperience/2019alipay-pinduoduo-toutiao.md
+  - name: 工具
+    chapters:
+      - name: Git
+        chapters:
+          - name: Git 入门
+            path: /docs/tools/Git.md
+      - name: Docker
+        chapters:
+          - name: Docker 入门
+            path: /docs/tools/Docker.md
+          - name: 一文搞懂 Docker 镜像的常用操作！
+            path: /docs/tools/Docker-Image.md
+  - name: 资料
+    chapters:
+      - name: Java 程序员必备书单
+        path: /docs/data/java-recommended-books.md
+      - name: Java 项目月榜单
+        chapters:
+          - name: 2018 年 12 月
+            path: /docs/github-trending/2018-12.md
+          - name: 2019 年 1 月
+            path: /docs/github-trending/2019-1.md
+          - name: 2019 年 2 月
+            path: /docs/github-trending/2019-2.md
+          - name: 2019 年 3 月
+            path: /docs/github-trending/2019-3.md
+          - name: 2019 年 4 月
+            path: /docs/github-trending/2019-4.md
+            
+           
             
             
