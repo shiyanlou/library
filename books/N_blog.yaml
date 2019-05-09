@@ -73,27 +73,27 @@ chapters:
         path: /book/4.3 配置文件.md
       - name: 4.4 功能设计
         path: /book/4.4 功能设计.md
-       - name: 4.5 页面设计
+      - name: 4.5 页面设计
         path: /book/4.5 页面设计.md
-       - name: 4.6 连接数据库
+      - name: 4.6 连接数据库
         path: /book/4.6 连接数据库.md
-       - name: 4.7 注册
+      - name: 4.7 注册
         path: /book/4.7 注册.md
-       - name: 4.8 登出与登录
+      - name: 4.8 登出与登录
         path: /book/4.8 登出与登录.md
-       - name: 4.9 文章
+      - name: 4.9 文章
         path: /book/4.9 文章.md
-       - name: 4.10 留言
+      - name: 4.10 留言
         path: /book/4.10 留言.md
-       - name: 4.11 404 页面
+      - name: 4.11 404 页面
         path: /book/4.11 404 页面.md
-       - name: 4.12 错误页面
+      - name: 4.12 错误页面
         path: /book/4.12 错误页面.md
-       - name: 4.13 日志
+      - name: 4.13 日志
         path: /book/4.13 日志.md
-       - name: 4.14 测试
+      - name: 4.14 测试
         path: /book/4.14 测试.md
-       - name: 4.15 部署
+      - name: 4.15 部署
         path: /book/4.15 部署.md
 
 
