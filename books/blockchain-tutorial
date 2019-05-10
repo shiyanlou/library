@@ -1,0 +1,39 @@
+# liuchengxu/blockchain-tutorial配置
+---
+# 技术教程名称应总是唯一的
+name: 区块链教程
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: blockchain-tutorial
+topic: 其他技术
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 区块链
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: liuchengxu/blockchain-tutorial
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /content
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: Liu-Cheng Xu
+  email: 
+  # github 主页地址
+  github: https://github.com/liuchengxu
+  blog: https://github.com/liuchengxu
+# 描述信息
+description: |
+  本教程内容涉及：
+  用 golang 从零开始构建区块链(Bitcoin)系列
+  区块链基础知识
+  Ethereum
+  Cardano
+  Orchid
+  Polkadot
+  ......
+  实际上，本教程也是我对于区块链认识的一个剪影。区块链不仅仅是计算机科学，还涉及了政治经济制度，社会分工协作等等很多方面，因此我的关注点不仅在于深度，更在于其广度，更多是站在研究的角度，而非仅仅是一个程序员的视角。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
