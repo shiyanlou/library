@@ -2,7 +2,7 @@
 # leisurelicht/wtfpython-cn配置
 ---
 # 技术教程名称应总是唯一的
-name: What the f**k Python!
+name: What the f**k Python
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: wtfpython-cn
 topic: 后端开发
