@@ -196,6 +196,8 @@ blocks:
       - Go语言高级编程
       - 关于Python的面试题
       - What the f**k Python
+      - C语言编程透视
+      - 互联网 Java 工程师进阶知识完全扫盲
   - topic: Web前端
     books:
       - CSS3教程
@@ -218,6 +220,7 @@ blocks:
       - OpenResty最佳实践
       - Http API设计指南
       - Http接口设计指北
+      - Shell 编程范例
   - topic: 云计算与数据分析
     books:
       - 神经网络与深度学习
