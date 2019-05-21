@@ -1,0 +1,64 @@
+# apachecn/AiLearning配置
+---
+# 技术教程名称应总是唯一的
+name: 机器学习基础 
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: AiLearning
+topic: 云计算与数据分析
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 机器学习
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: apachecn/AiLearning
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: apacheCN
+  email: 
+  # github 主页地址
+  github: https://github.com/apachecn
+  blog: https://github.com/apachecn
+# 描述信息
+description: |
+  
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
+chapters:
+  - name: 机器学习基础
+    path: /docs/ml/1.机器学习基础.md
+  - name: k-近邻算法
+    path: /docs/ml/2.k-近邻算法.md
+  - name: 决策树
+    path: /docs/ml/3.决策树.md
+  - name: 朴素贝叶斯
+    path: /docs/ml/4.朴素贝叶斯.md
+  - name: Logistic回归
+    path: /docs/ml/5.Logistic回归.md
+  - name: 支持向量机
+    path: /docs/ml/6.支持向量机.md
+  - name: 集成方法-随机森林和AdaBoost
+    path: /docs/ml/7.集成方法-随机森林和AdaBoost.md
+  - name: 回归
+    path: /docs/ml/8.回归.md
+  - name: 树回归
+    path: /docs/ml/9.树回归.md
+  - name: k-means聚类
+    path: /docs/ml/10.k-means聚类.md
+  - name: 使用Apriori算法进行关联分析
+    path: /docs/ml/11.使用Apriori算法进行关联分析.md
+  - name: FP-growth 高效发现频繁项集
+    path: /docs/ml/12.使用FP-growth算法来高效发现频繁项集.md
+  - name: 利用 PCA 来简化数据
+    path: /docs/ml/13.利用PCA来简化数据.md
+  - name: 利用 SVD 来简化数据
+    path: /docs/ml/14.利用SVD简化数据.md
+  - name: 大数据与 MapReduce
+    path: /docs/ml/15.大数据与MapReduce.md
+  - name: 推荐系统
+    path: /docs/ml/16.推荐系统.md
