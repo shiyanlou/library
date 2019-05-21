@@ -229,6 +229,7 @@ blocks:
       - numpy用户指南
       - kubernetes完全教程
       - 算法/深度学习/NLP面试笔记
+      - 机器学习基础
   - topic: 数据库
     books:
       - MongoDB小书
