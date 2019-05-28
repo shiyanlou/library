@@ -1,0 +1,94 @@
+# SFLAQiu/web-develop配置
+---
+# 技术教程名称应总是唯一的
+name: 大话WEB开发 
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: web-develop
+topic: 其他技术
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 职业生涯
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: SFLAQiu/web-develop
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: SFLAQiu
+  email: 
+  # github 主页地址
+  github: https://github.com/SFLAQiu
+  blog: https://github.com/SFLAQiu
+# 描述信息
+description: |
+作为开发者，需要不断的对技术点进行总结，并且把它沉淀下来，写技术博文无疑是最好的方式，随着时间流逝，还可以作为自己每个阶段的技术认知轨迹进行回顾和反思，这里将会持续记录对WEB开发相关总结内容
+  
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
+chapters:
+  - name: 后端开发
+    chpaters:
+      - name: 大话后端开发的奇淫技巧大集合
+        path: /大话后端开发的奇淫技巧大集合.md
+      - name: 大话转岗PHP开发小结
+        path: /大话转岗PHP开发小结.md
+  - name: 高并发
+    chapters:
+      - name: 大话程序猿眼里的高并发架构
+        path: /大话程序猿眼里的高并发架构.md
+      - name: 高并发业务接口开发思路(实战)
+        path: /高并发业务接口开发思路(实战).md
+      - name: 大话程序猿眼里的高并发
+        path: /大话程序猿眼里的高并发.md
+      - name: 大话程序猿眼里的高并发之续篇
+        path: /大话程序猿眼里的高并发之续篇.md
+  - name: redis
+    chapters:
+      - name: 大话Redis基础
+        path: /大话Redis基础.md
+      - name: 大话Redis进阶
+        path: /大话Redis进阶.md
+  - name: 安全
+    chapters:
+      - name: 大话WEB安全
+        path: /大话WEB安全.md
+      - name: 大话接口隐私与安全
+        path: /大话接口隐私与安全.md
+      - name: 大话今天你被刷了吗
+        path: /大话今天你被刷了吗.md
+      - name: 记一次站点被挂马问题排查
+        path: /记一次站点被挂马问题排查.md
+  - name: 爬虫
+    chapters:
+      - name: 大话爬虫的基本套路
+        path: /大话爬虫的基本套路.md
+      - name: 大话爬虫的实践技巧
+        path: /大话爬虫的实践技巧.md
+  - name: 入门基础
+    chapters:
+      - name: RabbitMQ入门与使用篇
+        path: /RabbitMQ入门与使用篇.md
+      - name: 大话GraphQL新手上车
+        path: /大话GraphQL新手上车.md
+  - name: 前端
+    chapters:
+      - name: 前端汇总
+        path: /前端汇总.md
+      - name: 大话WEB前端性能优化基本套路
+        path: /大话WEB前端性能优化基本套路.md
+  - name: 其他
+    chapters:
+      - name: 大话WEB开发必备神器
+        path: /大话WEB开发必备神器.md
+      - name: 大话来自一个程序员的反思
+        path: /大话来自一个程序员的反思.md
+      - name: 大话程序猿VS产品狗
+        path: /大话程序猿VS产品狗.md
+        
+      
+        
