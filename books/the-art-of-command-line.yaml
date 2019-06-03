@@ -1,0 +1,34 @@
+# jlevy/the-art-of-command-line配置
+---
+# 技术教程名称应总是唯一的
+name: 命令行的艺术  
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: the-art-of-command-line
+topic: Linux运维
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - Shell
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: jlevy/the-art-of-command-line
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: zeng chujie
+  email: 
+  # github 主页地址
+  github: https://github.com/Psycho7
+  blog: https://github.com/Psycho7
+# 描述信息
+description: |
+  熟练使用命令行是一种常常被忽视，或被认为难以掌握的技能，但实际上，它会提高你作为工程师的灵活性以及生产力。本文是一份我在 Linux 上工作时，发现的一些命令行使用技巧的摘要。有些技巧非常基础，而另一些则相当复杂，甚至晦涩难懂。这篇文章并不长，但当你能够熟练掌握这里列出的所有技巧时，你就学会了很多关于命令行的东西了。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
+chapters:
+  - name: 中文版
+    path: /README-zh.md
