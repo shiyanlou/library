@@ -1,0 +1,132 @@
+# colinlet/PHP-Interview-QA配置
+---
+# 技术教程名称应总是唯一的
+name: PHP面试问答 
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: PHP-Interview-QA
+topic: 后端开发
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - PHP
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: colinlet/PHP-Interview-QA
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: 凌枫
+  email: 
+  # github 主页地址
+  github: https://github.com/colinlet
+  blog: https://github.com/colinlet
+# 描述信息
+description: |
+  结合实际PHP面试，汇总自己遇到的问题，以及网上其他人遇到的问题，尝试提供简洁准确的答案
+  包含网络、数据结构与算法、PHP、Web、MySQL、Redis、Linux、安全、设计模式、架构、面试等部分
+  
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
+chapters:
+  - name: 网络篇
+    chapters:
+      - name: 计算机网络体系结构
+        path: /docs/01.网络/01.计算机网络体系结构.md
+      - name: 用户数据报协议UDP
+        path: /docs/01.网络/02.用户数据报协议UDP.md
+      - name: 传输控制协议TCP
+        path: /docs/01.网络/03.传输控制协议TCP.md
+      - name: TCP粘包拆包
+        path: /docs/01.网络/04.TCP粘包拆包.md
+      - name: HTTP状态码
+        path: /docs/01.网络/05.HTTP状态码.md
+      - name: HTTP方法详解
+        path: /docs/01.网络/06.HTTP方法详解.md
+      - name: HTTPS细节介绍
+        path: /docs/01.网络/07.HTTPS细节介绍.md
+      - name: SSL-TLS协议运行机制的概述
+        path: /docs/01.网络/08.SSL-TLS协议运行机制的概述.md
+      - name: 网络篇面试问答
+        path: /docs/01.网络/QA.md
+  - name: 数据结构与算法篇
+    path: /docs/02.数据结构与算法/QA.md
+  - name: PHP 篇
+    chapters:
+      - name: PHP数组
+        path: /docs/03.PHP/01.PHP数组.md
+      - name: 反射详解
+        path: /docs/03.PHP/02.PHP反射详解.md
+      - name: echo、print、print_r、var_dump区别
+        path: /docs/03.PHP/03.echo、print、print_r、var_dump区别.md
+      - name: PHP 篇面试问答
+        path: /docs/03.PHP/QA.md
+  - name: Web 篇
+    chapters:
+      - name: 初探SEO
+        path: /docs/04.Web/01.初探SEO.md
+      - name: 选择器的分类
+        path: /docs/04.Web/02.CSS选择器的分类.md
+      - name: CSS-Sprite的应用
+        path: /docs/04.Web/03.CSS-Sprite的应用.md
+      - name: CSS盒模型
+        path: /docs/04.Web/04.CSS盒模型.md
+      - name: CSS水平居中设置
+        path: /docs/04.Web/05.CSS水平居中设置.md
+      - name: CSS垂直居中设置
+        path: /docs/04.Web/06.CSS垂直居中设置.md
+      - name: flex布局的基本概念
+        path: /docs/04.Web/07.flex布局的基本概念.md
+      - name: CSS-Position学习
+        path: /docs/04.Web/08.CSS-Position学习.md
+      - name: JavaScript的性能优化-加载和执行
+        path: /docs/04.Web/09.JavaScript的性能优化-加载和执行.md
+      - name: JavaScript数据类型和数据结构
+        path: /docs/04.Web/10.JavaScript数据类型和数据结构.md
+      - name: JavaScript操作DOM常用的API
+        path: /docs/04.Web/11.JavaScript操作DOM常用的API.md
+      - name: 浏览器的同源策略
+        path: /docs/04.Web/12.浏览器的同源策略.md
+      - name: 前端常见跨域解决方案
+        path: /docs/04.Web/13.前端常见跨域解决方案.md
+      - name: JavaScript闭包
+        path: /docs/04.Web/14.JavaScript闭包.md
+      - name: jsonp的原理与简单实现
+        path: /docs/04.Web/15.jsonp的原理与简单实现.md
+      - name: vue的双向绑定原理及实现
+        path: /docs/04.Web/16.vue的双向绑定原理及实现.md
+      - name: Web 篇面试问答
+        path: /docs/04.Web/QA.md
+  - name: MySQL 篇
+    chapters:
+      - name: MySQL连接的使用
+        path: /docs/05.MySQL/01.MySQL连接的使用.md
+      - name: MySQL体系结构
+        path: /docs/05.MySQL/02.MySQL体系结构.md
+      - name: MySQL常用函数
+        path: /docs/05.MySQL/03.MySQL常用函数.md
+      - name: MySQL 篇面试问答
+        path: /docs/05.MySQL/QA.md
+  - name: Redis 篇
+    path: /docs/06.Redis/QA.md
+  - name: Linux 篇
+    chapters:
+      - name: GNU-Linux分支图
+        path: /docs/07.Linux/01.GNU-Linux分支图.md
+      - name: Linux基础
+        path: /docs/07.Linux/02.Linux基础.md
+      - name: Linux 篇面试问答 
+        path: /docs/07.Linux/QA.md
+  - name: 安全篇 
+    path: /docs/08.安全/QA.md
+  - name: 设计模式篇
+    path: /docs/09.设计模式/QA.md
+  - name: 架构篇
+    path: /docs/10.架构/QA.md
+  - name: 术语对照表
+    path: /docs/术语对照表.md
+    
+    
