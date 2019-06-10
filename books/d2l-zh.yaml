@@ -1,0 +1,243 @@
+# d2l-ai/d2l-zh配置
+---
+# 技术教程名称应总是唯一的
+name: 动手学深度学习 
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: d2l-zh
+topic: 云计算与数据分析
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - 机器学习
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: d2l-ai/d2l-zh
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: d2l-ai
+  email: 
+  # github 主页地址
+  github: https://github.com/d2l-ai
+  blog: https://github.com/d2l-ai
+# 描述信息
+description: |
+  本文经授权转载自《动手学深度学习》。全书内容参见 https://zh.d2l.ai，GitHub项目参见 https://github.com/d2l-ai/d2l-zh。  
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0
+chapters:
+  - name: 如何使用本书
+    path: /chapter_how-to-use/how-to-use.md
+  - name: 深度学习简介
+    path: /chapter_introduction/deep-learning-intro.md
+  - name: 预备知识
+    chapters:
+      - name: 获取和运行本书的代码
+        path: /chapter_prerequisite/install.md
+      - name: 数据操作
+        path: /chapter_prerequisite/ndarray.md
+      - name: 自动求梯度
+        path: /chapter_prerequisite/autograd.md
+      - name: 查阅文档
+        path: /chapter_prerequisite/lookup-api.md
+  - name: 深度学习基础
+    chapters:
+      - name: 线性回归
+        path: /chapter_deep-learning-basics/linear-regression.md
+      - name: 线性回归的从零开始实现
+        path: /chapter_deep-learning-basics/linear-regression-scratch.md
+      - name: 线性回归的简洁实现
+        path: /chapter_deep-learning-basics/linear-regression-gluon.md
+      - name: softmax回归
+        path: /chapter_deep-learning-basics/softmax-regression.md
+      - name: 图像分类数据集（Fashion-MNIST）
+        path: /chapter_deep-learning-basics/fashion-mnist.md
+      - name: softmax回归的从零开始实现
+        path: /chapter_deep-learning-basics/softmax-regression-scratch.md
+      - name: softmax回归的简洁实现
+        path: /chapter_deep-learning-basics/softmax-regression-gluon.md
+      - name: 多层感知机
+        path: /chapter_deep-learning-basics/mlp.md
+      - name: 多层感知机的从零开始实现
+        path: /chapter_deep-learning-basics/mlp-scratch.md
+      - name: 多层感知机的简洁实现
+        path: /chapter_deep-learning-basics/mlp-gluon.md
+      - name: 模型选择、欠拟合和过拟合
+        path: /chapter_deep-learning-basics/underfit-overfit.md
+      - name: 权重衰减
+        path: /chapter_deep-learning-basics/weight-decay.md
+      - name: 丢弃法
+        path: /chapter_deep-learning-basics/dropout.md
+      - name: 正向传播、反向传播和计算图  
+        path: /chapter_deep-learning-basics/backprop.md
+      - name: 数值稳定性和模型初始化
+        path: /chapter_deep-learning-basics/numerical-stability-and-init.md
+      - name: 实战Kaggle比赛：房价预测
+        path: /chapter_deep-learning-basics/kaggle-house-price.md
+  - name: 深度学习计算
+    chapters:
+      - name: 模型构造
+        path: /chapter_deep-learning-computation/model-construction.md
+      - name: 模型参数的访问、初始化和共享
+        path: /chapter_deep-learning-computation/parameters.md
+      - name: 模型参数的延后初始化
+        path: /chapter_deep-learning-computation/deferred-init.md
+      - name: 自定义层
+        path: /chapter_deep-learning-computation/custom-layer.md
+      - name: 读取和存储
+        path: /chapter_deep-learning-computation/read-write.md
+      - name: GPU计算
+        path: /chapter_deep-learning-computation/use-gpu.md
+  - name: 卷积神经网络
+    chapters: 
+      - name: 二维卷积层
+        path: /chapter_convolutional-neural-networks/conv-layer.md
+      - name: 填充和步幅
+        path: /chapter_convolutional-neural-networks/padding-and-strides.md
+      - name: 多输入通道和多输出通道
+        path: /chapter_convolutional-neural-networks/channels.md
+      - name: 池化层
+        path: /chapter_convolutional-neural-networks/pooling.md
+      - name: 卷积神经网络（LeNet）
+        path: /chapter_convolutional-neural-networks/lenet.md
+      - name: 深度卷积神经网络（AlexNet）
+        path: /chapter_convolutional-neural-networks/alexnet.md
+      - name: 使用重复元素的网络（VGG）
+        path: /chapter_convolutional-neural-networks/vgg.md
+      - name: 网络中的网络（NiN）
+        path: /chapter_convolutional-neural-networks/nin.md
+      - name: 含并行连结的网络（GoogLeNet）
+        path: /chapter_convolutional-neural-networks/googlenet.md
+      - name: 批量归一化
+        path: /chapter_convolutional-neural-networks/batch-norm.md
+      - name: 残差网络（ResNet）
+        path: /chapter_convolutional-neural-networks/resnet.md
+      - name: 稠密连接网络（DenseNet）
+        path: /chapter_convolutional-neural-networks/densenet.md
+  - name: 循环神经网络
+    chapters:
+      - name: 语言模型
+        path: /chapter_recurrent-neural-networks/lang-model.md
+      - name: 循环神经网络
+        path: /chapter_recurrent-neural-networks/rnn.md
+      - name: 语言模型数据集（周杰伦专辑歌词）
+        path: /chapter_recurrent-neural-networks/lang-model-dataset.md   
+      - name: 循环神经网络的从零开始实现
+        path: /chapter_recurrent-neural-networks/rnn-scratch.md  
+      - name: 循环神经网络的简洁实现
+        path: /chapter_recurrent-neural-networks/rnn-gluon.md
+      - name: 通过时间反向传播
+        path: /chapter_recurrent-neural-networks/bptt.md   
+      - name: 门控循环单元（GRU）
+        path: /chapter_recurrent-neural-networks/gru.md    
+      - name: 长短期记忆（LSTM）
+        path: /chapter_recurrent-neural-networks/lstm.md 
+      - name: 深度循环神经网络
+        path: /chapter_recurrent-neural-networks/deep-rnn.md  
+      - name: 双向循环神经网络
+        path: /chapter_recurrent-neural-networks/bi-rnn.md 
+  - name: 优化算法
+    chapters:
+      - name: 优化与深度学习
+        path: /chapter_optimization/optimization-intro.md
+      - name: 梯度下降和随机梯度下降
+        path: /chapter_optimization/gd-sgd.md
+      - name: 小批量随机梯度下降
+        path: /chapter_optimization/minibatch-sgd.md
+      - name: 动量法
+        path: /chapter_optimization/momentum.md
+      - name: AdaGrad算法
+        path: /chapter_optimization/adagrad.md
+      - name: RMSProp算法
+        path: /chapter_optimization/rmsprop.md
+      - name: AdaDelta算法
+        path: /chapter_optimization/adadelta.md 
+      - name: Adam算法
+        path: /chapter_optimization/adam.md
+  - name: 计算性能
+    chapters: 
+      - name: 命令式和符号式混合编程
+        path: /chapter_computational-performance/hybridize.md
+      - name: 异步计算
+        path: /chapter_computational-performance/async-computation.md
+      - name: 自动并行计算
+        path: /chapter_computational-performance/auto-parallelism.md
+      - name: 多GPU计算
+        path: /chapter_computational-performance/multiple-gpus.md
+      - name: 多GPU计算的简洁实现
+        path: /chapter_computational-performance/multiple-gpus-gluon.md
+  - name: 计算机视觉
+    chapters:
+      - name: 图像增广
+        path: /chapter_computer-vision/image-augmentation.md
+      - name: 微调
+        path: /chapter_computer-vision/fine-tuning.md
+      - name: 目标检测和边界框
+        path: /chapter_computer-vision/bounding-box.md
+      - name: 锚框
+        path: /chapter_computer-vision/anchor.md
+      - name: 多尺度目标检测
+        path: /chapter_computer-vision/multiscale-object-detection.md
+      - name: 目标检测数据集（皮卡丘）
+        path: /chapter_computer-vision/object-detection-dataset.md
+      - name: 单发多框检测（SSD）
+        path: /chapter_computer-vision/ssd.md
+      - name: 区域卷积神经网络（R-CNN）系列
+        path: /chapter_computer-vision/rcnn.md
+      - name: 语义分割和数据集
+        path: /chapter_computer-vision/semantic-segmentation-and-dataset.md
+      - name: 全卷积网络（FCN）
+        path: /chapter_computer-vision/fcn.
+      - name: 样式迁移
+        path: /chapter_computer-vision/neural-style.md
+      - name: 实战Kaggle比赛：图像分类（CIFAR-10）
+        path: /chapter_computer-vision/kaggle-gluon-cifar10.md
+      - name: 实战Kaggle比赛：狗的品种识别（ImageNet Dogs）
+        path: /chapter_computer-vision/kaggle-gluon-dog.md
+  - name: 自然语言处理
+    chapters:
+      - name: 词嵌入（word2vec）
+        path: /chapter_natural-language-processing/word2vec.md
+      - name: 近似训练
+        path: /chapter_natural-language-processing/approx-training.md
+      - name: word2vec的实现
+        path: /chapter_natural-language-processing/word2vec-gluon.md
+      - name: 子词嵌入（fastText  
+        path: /chapter_natural-language-processing/fasttext.md
+      - name: 全局向量的词嵌入（GloVe）
+        path: /chapter_natural-language-processing/glove.md
+      - name: 求近义词和类比词
+        path: /chapter_natural-language-processing/similarity-analogy.md
+      - name: 文本情感分类：使用循环神经网络
+        path: /chapter_natural-language-processing/sentiment-analysis-rnn.md
+      - name: 文本情感分类：使用卷积神经网络（textCNN）
+        path: /chapter_natural-language-processing/sentiment-analysis-cnn.md
+      - name: 编码器—解码器（seq2seq）    
+        path: /chapter_natural-language-processing/seq2seq.md
+      - name: 束搜索
+        path: /chapter_natural-language-processing/beam-search.md
+      - name: 注意力机制
+        path: /chapter_natural-language-processing/attention.md
+      - name: 机器翻译
+        path: /chapter_natural-language-processing/machine-translation.md
+  - name: 附录
+    chapters:
+      - name: 主要符号一览
+        path: /chapter_appendix/notation.md
+      - name: 数学基础
+        path: /chapter_appendix/math.md
+      - name: 使用Jupyter记事本
+        path: /chapter_appendix/jupyter.md 
+      - name: 使用AWS运行代码
+        path: /chapter_appendix/aws.md
+      - name: GPU购买指南
+        path: /chapter_appendix/buy-gpu.md  
+      - name: 如何为本书贡献
+        path: /chapter_appendix/how-to-contribute.md
+      - name: d2lzh包索引
+        path: /chapter_appendix/d2lzh.md
+        
