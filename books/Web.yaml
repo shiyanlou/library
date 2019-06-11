@@ -322,8 +322,6 @@ chapters:
         path: /13-React基础/09-AntD框架的upload组件上传图片时遇到的一些坑.md
       - name: 13.10 React Navive初识
         path: /13-React基础/10-React Navive初识.md
-      - name:
-        path:
   - name: 14. 前端面试
     chapters:
       - name: 14.1 准备
