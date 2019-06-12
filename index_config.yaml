@@ -241,6 +241,9 @@ blocks:
       - MongoDB小书
       - influxdb 简明教程
       - 使用Express+MongoDB搭建多人博客
+  - topic: 数据库
+    books:
+      - Flutter完整开发实战
   - topic: 其他技术
     books:
       - 实验楼使用指南
