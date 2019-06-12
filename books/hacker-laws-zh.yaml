@@ -1,7 +1,7 @@
 # nusr/hacker-laws-zh 配置
 ---
 # 技术教程名称应总是唯一的
-name: hacker-laws 
+name: hackerLaws 
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
 slug: hacker-laws-zh
 topic: 其他技术
