@@ -191,7 +191,7 @@ chapters:
       - name: 语义分割和数据集
         path: /chapter_computer-vision/semantic-segmentation-and-dataset.md
       - name: 全卷积网络（FCN）
-        path: /chapter_computer-vision/fcn.
+        path: /chapter_computer-vision/fcn.md
       - name: 样式迁移
         path: /chapter_computer-vision/neural-style.md
       - name: 实战Kaggle比赛：图像分类（CIFAR-10）
