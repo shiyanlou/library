@@ -130,6 +130,8 @@ nav:
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
       - name: Swift
         icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Swift.png
+      - name: Flutter
+        icon: https://dn-simplecloud.shiyanlou.com/tech-icon/Default.png
   - topic: 信息安全
     tags:
       - name: Kali
@@ -244,6 +246,7 @@ blocks:
   - topic: 移动开发
     books:
       - Flutter完整开发实战
+      - Dart语言教程
   - topic: 其他技术
     books:
       - 实验楼使用指南
