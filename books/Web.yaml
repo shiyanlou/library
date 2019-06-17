@@ -87,11 +87,11 @@ chapters:
       - name: 2.11 Sass入门
         path: /02-CSS/11-Sass入门.md
       - name: 2.12 浏览器的兼容性问题
-        path: /02-CSS进阶/浏览器的兼容性问题.md
+        path: /02-CSS/浏览器的兼容性问题.md
   - name: 3. JavaScript 基础
     chapters:
       - name: 3.1 JS简介
-        path: /03-JavaScript基础/01-JS简介.md.md
+        path: /03-JavaScript基础/01-JS简介.md
       - name: 3.2 变量
         path: /03-JavaScript基础/02-变量.md
       - name: 3.3 变量的强制类型转换
@@ -121,25 +121,25 @@ chapters:
       - name: 3.15 数组的四个基本方法&数组的遍历
         path: /03-JavaScript基础/15-数组的四个基本方法&数组的遍历.md
       - name: 3.16 数组的常见方法
-        path: /03-JavaScript进阶/16-数组的常见方法.md
+        path: /04-JavaScript进阶/16-数组的常见方法.md
       - name: 3.17 数组的其他方法
-        path: /03-JavaScript进阶/17-数组的其他方法.md
+        path: /04-JavaScript进阶/17-数组的其他方法.md
       - name: 3.18 内置对象：Date
-        path: /03-JavaScript进阶/18-内置对象：Date.md
+        path: /04-JavaScript进阶/18-内置对象：Date.md
       - name: 3.19 内置对象(其他)
-        path: /03-JavaScript进阶/20-内置对象(其他).md
+        path: /04-JavaScript进阶/20-内置对象(其他).md
       - name: 3.20 DOM操作
-        path: /03-JavaScript进阶/21-DOM操作.md
+        path: /04-JavaScript进阶/21-DOM操作.md
       - name: 3.21 事件对象Event和冒泡
-        path: /03-JavaScript进阶/22-事件对象Event和冒泡.md
+        path: /04-JavaScript进阶/22-事件对象Event和冒泡.md
       - name: 3.22 事件委托
-        path: /03-JavaScript进阶/23-事件委托.md
+        path: /04-JavaScript进阶/23-事件委托.md
       - name: 3.23 BOM的常见内置方法和内置对象
-        path: /03-JavaScript进阶/24-BOM的常见内置方法和内置对象.md
+        path: /04-JavaScript进阶/24-BOM的常见内置方法和内置对象.md
       - name: 3.24 原型链
-        path: /03-JavaScript进阶/25-原型链.md
+        path: /04-JavaScript进阶/25-原型链.md
       - name: 3.25 常见代码解读
-        path: /03-JavaScript进阶/26-常见代码解读.md
+        path: /04-JavaScript进阶/26-常见代码解读.md
   - name: 4. JavaScript进阶
     chapters:
       - name: 4.1 call、apply、bind的区别
@@ -444,13 +444,13 @@ chapters:
         path: /17-前端综合/前端开发积累.md
       - name: 17.15 网友对本项目提的建议
         path: /17-前端综合/网友对本项目提的建议.md
-  - name: 18. 推荐连接
+  - name: 18. 推荐链接
     chapters:
       - name: 18.1 2019年Web前端最新导航
-        path: /18-推荐连接/01-2019年Web前端最新导航.md
+        path: /18-推荐链接/01-2019年Web前端最新导航.md
       - name: 18.2 推荐网站
-        path: /18-推荐连接/03-推荐网站.md
+        path: /18-推荐链接/03-推荐网站.md
       - name: 18.3 2018-推荐文章
-        path: /18-推荐连接/2018-推荐文章.md
+        path: /18-推荐链接/2018-推荐文章.md
       - name: 18.4 2019-推荐文章
-        path: /18-推荐连接/2019-推荐文章.md
+        path: /18-推荐链接/2019-推荐文章.md
