@@ -9,7 +9,7 @@ topic: 云计算与数据分析
 tags:
   - 机器学习
 # 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
-repository: d2l-ai/d2l-zh
+repository: LabExCoding/d2l-zh
 # 技术教程所在的 git 仓库地址目录
 # shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
 # 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
