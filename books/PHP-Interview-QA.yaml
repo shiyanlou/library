@@ -34,24 +34,8 @@ version: 1.0
 chapters:
   - name: 网络篇
     chapters:
-      - name: 计算机网络体系结构
-        path: /docs/01.网络/01.计算机网络体系结构.md
-      - name: 用户数据报协议UDP
-        path: /docs/01.网络/02.用户数据报协议UDP.md
-      - name: 传输控制协议TCP
-        path: /docs/01.网络/03.传输控制协议TCP.md
-      - name: TCP粘包拆包
-        path: /docs/01.网络/04.TCP粘包拆包.md
-      - name: HTTP状态码
-        path: /docs/01.网络/05.HTTP状态码.md
-      - name: HTTP方法详解
-        path: /docs/01.网络/06.HTTP方法详解.md
-      - name: HTTPS细节介绍
-        path: /docs/01.网络/07.HTTPS细节介绍.md
-      - name: SSL-TLS协议运行机制的概述
-        path: /docs/01.网络/08.SSL-TLS协议运行机制的概述.md
-      - name: 网络篇面试问答
-        path: /docs/01.网络/QA.md
+      - name: 网络
+        path: /docs/01.网络.md
   - name: 数据结构与算法篇
     path: /docs/02.数据结构与算法/QA.md
   - name: PHP 篇
