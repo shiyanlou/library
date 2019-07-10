@@ -121,25 +121,25 @@ chapters:
       - name: 3.15 数组的四个基本方法&数组的遍历
         path: /03-JavaScript基础/15-数组的四个基本方法&数组的遍历.md
       - name: 3.16 数组的常见方法
-        path: /04-JavaScript进阶/16-数组的常见方法.md
+        path: /03-JavaScript基础/16-数组的常见方法.md
       - name: 3.17 数组的其他方法
-        path: /04-JavaScript进阶/17-数组的其他方法.md
+        path: /03-JavaScript基础/17-数组的其他方法.md
       - name: 3.18 内置对象：Date
-        path: /04-JavaScript进阶/18-内置对象：Date.md
+        path: /03-JavaScript基础/18-内置对象：Date.md
       - name: 3.19 内置对象(其他)
-        path: /04-JavaScript进阶/20-内置对象(其他).md
+        path: /03-JavaScript基础/20-内置对象(其他).md
       - name: 3.20 DOM操作
-        path: /04-JavaScript进阶/21-DOM操作.md
+        path: /03-JavaScript基础/21-DOM操作.md
       - name: 3.21 事件对象Event和冒泡
-        path: /04-JavaScript进阶/22-事件对象Event和冒泡.md
+        path: /03-JavaScript基础/22-事件对象Event和冒泡.md
       - name: 3.22 事件委托
-        path: /04-JavaScript进阶/23-事件委托.md
+        path: /03-JavaScript基础/23-事件委托.md
       - name: 3.23 BOM的常见内置方法和内置对象
-        path: /04-JavaScript进阶/24-BOM的常见内置方法和内置对象.md
+        path: /03-JavaScript基础/24-BOM的常见内置方法和内置对象.md
       - name: 3.24 原型链
-        path: /04-JavaScript进阶/25-原型链.md
+        path: /03-JavaScript基础/25-原型链.md
       - name: 3.25 常见代码解读
-        path: /04-JavaScript进阶/26-常见代码解读.md
+        path: /03-JavaScript基础/26-常见代码解读.md
   - name: 4. JavaScript进阶
     chapters:
       - name: 4.1 call、apply、bind的区别
