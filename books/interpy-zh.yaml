@@ -3,7 +3,7 @@
 # 技术教程名称应总是唯一的
 name: Python进阶 
 # 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
-slug: interpy-zh
+slug: interpy-zhs
 topic: 后端开发
 # 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
 tags:
