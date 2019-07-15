@@ -30,5 +30,5 @@ official: false
 # 教程版本号
 version: 1.0
 chapters:
-  - name: 中文版
+  - name: 中文版(请点击这里)
     path: /README-zh.md
