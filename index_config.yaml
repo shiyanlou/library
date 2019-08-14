@@ -216,6 +216,7 @@ blocks:
       - ECMAScript 6入门
       - Redux简明教程
       - Redux中文文档
+      - Koa2进阶学习笔记
   - topic: Linux运维
     books:
       - 快乐的 Linux 命令行
