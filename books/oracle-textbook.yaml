@@ -1,0 +1,32 @@
+# xieyanzu/oracle_textbook配置
+---
+# 技术教程名称应总是唯一的
+name: Oracle开发与运维实践
+# 技术教程 URL 链接定位字符串，通过 "-" 符号链接单词
+slug: oracle-textbook
+topic: 数据库
+# 标签是一个有序列表，技术教程在页面显示时会使用第一个标签的 icon
+tags:
+  - SQL
+# 技术教程所在的 git 仓库地址，仓库地址由 github 用户名和仓库名组成
+repository: xieyanzu/oracle_textbook
+# 技术教程所在的 git 仓库地址目录
+# shiyanlou/library 下的技术教程需要指定教程章节内容所在的目录名称
+# 而如果作者的技术教程拥有自己的仓库，则填写 "/" 即可
+repository_dir: /
+# 作者信息
+# 如果同一作者拥有多个技术教程，所有教程的作者配置信息应一致
+author:
+  name: 蓝桥学院
+  email: 
+  # github 主页地址
+  github: https://github.com/xieyanzu
+  blog: https://www.lanqiao.cn
+# 描述信息
+description: |
+  本教程内容涉及：
+  Oracle开发与运维实践，包含关系型数据库 Oracle 的简介，查询和排序，单行函数和多表查询，子查询和组函数，操作数据和管理表，视图序列和索引，访问控制和其他数据库对象，备份恢复和SQL优化等知识。
+# 配置教程是否该领域官方教程
+official: false
+# 教程版本号
+version: 1.0

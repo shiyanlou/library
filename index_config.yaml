@@ -174,6 +174,8 @@ nav:
 blocks:
   - topic: 后端开发
     books:
+      - Java程序设计基础
+      - Java程序设计高级
       - C++并发编程
       - JavaWeb入门开发教程
       - Gradle实战中文版
@@ -243,6 +245,7 @@ blocks:
       - 动手学深度学习
   - topic: 数据库
     books:
+      - Oracle开发与运维实践
       - MongoDB小书
       - influxdb 简明教程
       - 使用Express+MongoDB搭建多人博客
